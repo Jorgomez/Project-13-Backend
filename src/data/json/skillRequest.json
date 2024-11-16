@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "1",
+    "user": "1",
+    "picture": "https://randomuser.me/api/portraits/women/31.jpg",
+    "skillToLearn": "Yoga",
+    "skillToTeach": "Meditation",
+    "mode": "online",
+    "location": "Lisbon, PT",
+    "availability": "Monday to Friday, after 6:00 pm"
+  },
+  {
+    "id": "2",
+    "user": "2",
+    "picture": "https://randomuser.me/api/portraits/men/4.jpg",
+    "skillToLearn": "Meditation",
+    "skillToTeach": "Breathwork",
+    "mode": "in-person",
+    "location": "Porto, PT",
+    "availability": "Saturdays, 12:00 pm - 3:00 pm"
+  },
+  {
+    "id": "3",
+    "user": "3",
+    "picture": "https://randomuser.me/api/portraits/women/5.jpg",
+    "skillToLearn": "Surfing",
+    "skillToTeach": "Mindfulness",
+    "mode": "in-person",
+    "location": "Barcelona, ES",
+    "availability": "Mondays and Wednesdays, 9:00 am - 12:00 pm"
+  },
+  {
+    "id": "4",
+    "user": "4",
+    "picture": "https://randomuser.me/api/portraits/men/20.jpg",
+    "skillToLearn": "Skateboarding",
+    "skillToTeach": "Nutrition",
+    "mode": "online",
+    "location": "Madrid, ES",
+    "availability": "Fridays, 1:00 pm - 5:00 pm"
+  },
+  {
+    "id": "5",
+    "user": "5",
+    "picture": "https://randomuser.me/api/portraits/men/87.jpg",
+    "skillToLearn": "Pilates",
+    "skillToTeach": "Acrobatics",
+    "mode": "online",
+    "location": "Valencia, ES",
+    "availability": "Weekends, any time"
+  },
+  {
+    "id": "6",
+    "user": "6",
+    "picture": "https://randomuser.me/api/portraits/men/40.jpg",
+    "skillToLearn": "Spirituality",
+    "skillToTeach": "Painting",
+    "mode": "in-person",
+    "location": "Rome, IT",
+    "availability": "Tuesday and Thursday, 6:00 pm - 9:00 pm"
+  },
+  {
+    "id": "7",
+    "user": "7",
+    "picture": "https://randomuser.me/api/portraits/men/36.jpg",
+    "skillToLearn": "Rock Climbing",
+    "skillToTeach": "Photography",
+    "mode": "online",
+    "location": "Milan, IT",
+    "availability": "Wednesdays, 3:00 pm - 7:00 pm"
+  },
+  {
+    "id": "8",
+    "user": "8",
+    "picture": "https://randomuser.me/api/portraits/men/5.jpg",
+    "skillToLearn": "Martial Arts",
+    "skillToTeach": "Life Coaching",
+    "mode": "online",
+    "location": "Paris, FR",
+    "availability": "Monday to Friday, mornings"
+  },
+  {
+    "id": "9",
+    "user": "9",
+    "picture": "https://randomuser.me/api/portraits/women/23.jpg",
+    "skillToLearn": "Photography",
+    "skillToTeach": "Sound Healing",
+    "mode": "in-person",
+    "location": "Nice, FR",
+    "availability": "Saturdays, 10:00 am - 2:00 pm"
+  },
+  {
+    "id": "10",
+    "user": "10",
+    "picture": "https://randomuser.me/api/portraits/men/7.jpg",
+    "skillToLearn": "Cooking",
+    "skillToTeach": "Dance",
+    "mode": "in-person",
+    "location": "Berlin, DE",
+    "availability": "Sundays, all day"
+  },
+  {
+    "id": "11",
+    "user": "11",
+    "picture": "https://randomuser.me/api/portraits/men/83.jpg",
+    "skillToLearn": "Ballet",
+    "skillToTeach": "Surfing",
+    "mode": "online",
+    "location": "Munich, DE",
+    "availability": "Mondays, after 5:00 pm"
+  },
+  {
+    "id": "12",
+    "user": "12",
+    "picture": "https://randomuser.me/api/portraits/women/86.jpg",
+    "skillToLearn": "Cycling",
+    "skillToTeach": "Yoga",
+    "mode": "in-person",
+    "location": "Hamburg, DE",
+    "availability": "Weekends, afternoons"
+  },
+  {
+    "id": "13",
+    "user": "13",
+    "picture": "https://randomuser.me/api/portraits/men/28.jpg",
+    "skillToLearn": "Gardening",
+    "skillToTeach": "Pilates",
+    "mode": "online",
+    "location": "London, UK",
+    "availability": "Thursdays, 4:00 pm - 6:00 pm"
+  },
+  {
+    "id": "14",
+    "user": "14",
+    "picture": "https://randomuser.me/api/portraits/women/25.jpg",
+    "skillToLearn": "Drawing",
+    "skillToTeach": "Strength Training",
+    "mode": "online",
+    "location": "Manchester, UK",
+    "availability": "Sundays, 1:00 pm - 4:00 pm"
+  },
+  {
+    "id": "15",
+    "user": "15",
+    "picture": "https://randomuser.me/api/portraits/women/33.jpg",
+    "skillToLearn": "Sculpting",
+    "skillToTeach": "Tai Chi",
+    "mode": "in-person",
+    "location": "Bristol, UK",
+    "availability": "Monday to Friday, 8:00 am - 11:00 am"
+  },
+  {
+    "id": "16",
+    "user": "16",
+    "picture": "https://randomuser.me/api/portraits/women/55.jpg",
+    "skillToLearn": "Music Theory",
+    "skillToTeach": "Jiu-Jitsu",
+    "mode": "online",
+    "location": "Edinburgh, UK",
+    "availability": "Tuesdays, 5:00 pm - 8:00 pm"
+  },
+  {
+    "id": "17",
+    "user": "17",
+    "picture": "https://randomuser.me/api/portraits/men/13.jpg",
+    "skillToLearn": "Fencing",
+    "skillToTeach": "Public Speaking",
+    "mode": "in-person",
+    "location": "Dublin, IE",
+    "availability": "Saturdays, mornings"
+  },
+  {
+    "id": "18",
+    "user": "18",
+    "picture": "https://randomuser.me/api/portraits/men/57.jpg",
+    "skillToLearn": "Swimming",
+    "skillToTeach": "Creative Writing",
+    "mode": "in-person",
+    "location": "Cork, IE",
+    "availability": "Mondays, 10:00 am - 1:00 pm"
+  },
+  {
+    "id": "19",
+    "user": "19",
+    "picture": "https://randomuser.me/api/portraits/men/82.jpg",
+    "skillToLearn": "Dancing",
+    "skillToTeach": "Cooking",
+    "mode": "online",
+    "location": "Amsterdam, NL",
+    "availability": "Wednesdays, 2:00 pm - 5:00 pm"
+  },
+  {
+    "id": "20",
+    "user": "20",
+    "picture": "https://randomuser.me/api/portraits/men/78.jpg",
+    "skillToLearn": "Chess",
+    "skillToTeach": "Chess",
+    "mode": "in-person",
+    "location": "Rotterdam, NL",
+    "availability": "Mondays and Fridays, 6:00 pm - 9:00 pm"
+  },
+  {
+    "id": "21",
+    "user": "21",
+    "picture": "https://randomuser.me/api/portraits/women/23.jpg",
+    "skillToLearn": "Salsa",
+    "skillToTeach": "Digital Marketing",
+    "mode": "online",
+    "location": "Brussels, BE",
+    "availability": "Weekends, 11:00 am - 3:00 pm"
+  },
+  {
+    "id": "22",
+    "user": "22",
+    "picture": "https://randomuser.me/api/portraits/women/71.jpg",
+    "skillToLearn": "Writing",
+    "skillToTeach": "Social Media Management",
+    "mode": "in-person",
+    "location": "Antwerp, BE",
+    "availability": "Tuesdays and Thursdays, after 6:00 pm"
+  },
+  {
+    "id": "23",
+    "user": "23",
+    "picture": "https://randomuser.me/api/portraits/men/24.jpg",
+    "skillToLearn": "Calligraphy",
+    "skillToTeach": "Woodworking",
+    "mode": "in-person",
+    "location": "Zurich, CH",
+    "availability": "Fridays, 3:00 pm - 6:00 pm"
+  },
+  {
+    "id": "24",
+    "user": "24",
+    "picture": "https://randomuser.me/api/portraits/women/59.jpg",
+    "skillToLearn": "Judo",
+    "skillToTeach": "Graphic Design",
+    "mode": "online",
+    "location": "Geneva, CH",
+    "availability": "Wednesdays, 12:00 pm - 4:00 pm"
+  },
+  {
+    "id": "25",
+    "user": "25",
+    "picture": "https://randomuser.me/api/portraits/men/42.jpg",
+    "skillToLearn": "Baseball",
+    "skillToTeach": "Web Development",
+    "mode": "online",
+    "location": "Vienna, AT",
+    "availability": "Mondays and Wednesdays, 5:00 pm - 8:00 pm"
+  },
+  {
+    "id": "26",
+    "user": "26",
+    "picture": "https://randomuser.me/api/portraits/men/9.jpg",
+    "skillToLearn": "Football",
+    "skillToTeach": "Machine Learning",
+    "mode": "in-person",
+    "location": "Salzburg, AT",
+    "availability": "Saturdays, 9:00 am - 12:00 pm"
+  },
+  {
+    "id": "27",
+    "user": "27",
+    "picture": "https://randomuser.me/api/portraits/women/5.jpg",
+    "skillToLearn": "Brazilian Jiu-Jitsu",
+    "skillToTeach": "Data Analysis",
+    "mode": "in-person",
+    "location": "Prague, CZ",
+    "availability": "Sundays, 2:00 pm - 6:00 pm"
+  },
+  {
+    "id": "28",
+    "user": "28",
+    "picture": "https://randomuser.me/api/portraits/men/18.jpg",
+    "skillToLearn": "Drawing",
+    "skillToTeach": "Blockchain Basics",
+    "mode": "online",
+    "location": "Brno, CZ",
+    "availability": "Monday to Friday, afternoons"
+  },
+  {
+    "id": "29",
+    "user": "29",
+    "picture": "https://randomuser.me/api/portraits/men/18.jpg",
+    "skillToLearn": "Aikido",
+    "skillToTeach": "Singing",
+    "mode": "in-person",
+    "location": "Warsaw, PL",
+    "availability": "Weekends, 10:00 am - 2:00 pm"
+  },
+  {
+    "id": "30",
+    "user": "30",
+    "picture": "https://randomuser.me/api/portraits/men/1.jpg",
+    "skillToLearn": "Tennis",
+    "skillToTeach": "Guitar",
+    "mode": "in-person",
+    "location": "Rancagua, CL",
+    "availability": "Mondays, 1:00 pm - 3:00 pm"
+  },
+  {
+    "id": "31",
+    "user": "31",
+    "picture": "https://randomuser.me/api/portraits/women/32.jpg",
+    "skillToLearn": "Painting",
+    "skillToTeach": "Piano",
+    "mode": "online",
+    "location": "Budapest, HU",
+    "availability": "Thursdays, 3:00 pm - 5:00 pm"
+  },
+  {
+    "id": "32",
+    "user": "32",
+    "picture": "https://randomuser.me/api/portraits/men/18.jpg",
+    "skillToLearn": "Skiing",
+    "skillToTeach": "Drums",
+    "mode": "online",
+    "location": "Belgrade, RS",
+    "availability": "Tuesdays, 8:00 am - 10:00 am"
+  },
+  {
+    "id": "33",
+    "user": "33",
+    "picture": "https://randomuser.me/api/portraits/women/63.jpg",
+    "skillToLearn": "Cooking",
+    "skillToTeach": "DJing",
+    "mode": "in-person",
+    "location": "Athens, GR",
+    "availability": "Mondays, 9:00 am - 11:00 am"
+  },
+  {
+    "id": "34",
+    "user": "34",
+    "picture": "https://randomuser.me/api/portraits/men/28.jpg",
+    "skillToLearn": "Barbecue",
+    "skillToTeach": "Music Production",
+    "mode": "in-person",
+    "location": "Thessaloniki, GR",
+    "availability": "Wednesdays, 6:00 pm - 8:00 pm"
+  },
+  {
+    "id": "35",
+    "user": "35",
+    "picture": "https://randomuser.me/api/portraits/women/76.jpg",
+    "skillToLearn": "Hiking",
+    "skillToTeach": "Videography",
+    "mode": "online",
+    "location": "Sofia, BG",
+    "availability": "Fridays, 2:00 pm - 4:00 pm"
+  },
+  {
+    "id": "36",
+    "user": "36",
+    "picture": "https://randomuser.me/api/portraits/women/15.jpg",
+    "skillToLearn": "Sculpting",
+    "skillToTeach": "Screenwriting",
+    "mode": "in-person",
+    "location": "Bucharest, RO",
+    "availability": "Tuesdays, afternoons"
+  },
+  {
+    "id": "37",
+    "user": "37",
+    "picture": "https://randomuser.me/api/portraits/men/75.jpg",
+    "skillToLearn": "Web Design",
+    "skillToTeach": "Podcasting",
+    "mode": "online",
+    "location": "Kyiv, UA",
+    "availability": "Saturdays, after 3:00 pm"
+  },
+  {
+    "id": "38",
+    "user": "38",
+    "picture": "https://randomuser.me/api/portraits/men/69.jpg",
+    "skillToLearn": "Knitting",
+    "skillToTeach": "Gardening",
+    "mode": "in-person",
+    "location": "Odessa, UA",
+    "availability": "Weekends, mornings"
+  },
+  {
+    "id": "39",
+    "user": "39",
+    "picture": "https://randomuser.me/api/portraits/women/70.jpg",
+    "skillToLearn": "Spiritual Healing",
+    "skillToTeach": "Pottery",
+    "mode": "online",
+    "location": "Minsk, BY",
+    "availability": "Monday to Friday, 10:00 am - 12:00 pm"
+  },
+  {
+    "id": "40",
+    "user": "40",
+    "picture": "https://randomuser.me/api/portraits/men/98.jpg",
+    "skillToLearn": "Herbalism",
+    "skillToTeach": "Knitting",
+    "mode": "in-person",
+    "location": "Vilnius, LT",
+    "availability": "Mondays and Fridays, 5:00 pm - 7:00 pm"
+  },
+  {
+    "id": "41",
+    "user": "41",
+    "picture": "https://randomuser.me/api/portraits/women/55.jpg",
+    "skillToLearn": "Volleyball",
+    "skillToTeach": "Sewing",
+    "mode": "online",
+    "location": "Riga, LV",
+    "availability": "Wednesdays, 7:00 pm - 9:00 pm"
+  },
+  {
+    "id": "42",
+    "user": "42",
+    "picture": "https://randomuser.me/api/portraits/men/52.jpg",
+    "skillToLearn": "Graphic Design",
+    "skillToTeach": "Embroidery",
+    "mode": "in-person",
+    "location": "Tallinn, EE",
+    "availability": "Thursdays, 12:00 pm - 3:00 pm"
+  },
+  {
+    "id": "43",
+    "user": "43",
+    "picture": "https://randomuser.me/api/portraits/men/76.jpg",
+    "skillToLearn": "Creative Writing",
+    "skillToTeach": "Calligraphy",
+    "mode": "online",
+    "location": "Stockholm, SE",
+    "availability": "Sundays, 9:00 am - 12:00 pm"
+  },
+  {
+    "id": "44",
+    "user": "44",
+    "picture": "https://randomuser.me/api/portraits/men/31.jpg",
+    "skillToLearn": "Pottery",
+    "skillToTeach": "Herbalism",
+    "mode": "online",
+    "location": "Gothenburg, SE",
+    "availability": "Fridays, 11:00 am - 2:00 pm"
+  },
+  {
+    "id": "45",
+    "user": "45",
+    "picture": "https://randomuser.me/api/portraits/women/25.jpg",
+    "skillToLearn": "Sewing",
+    "skillToTeach": "Massage Therapy",
+    "mode": "in-person",
+    "location": "Oslo, NO",
+    "availability": "Mondays, 3:00 pm - 6:00 pm"
+  },
+  {
+    "id": "46",
+    "user": "46",
+    "picture": "https://randomuser.me/api/portraits/men/33.jpg",
+    "skillToLearn": "Origami",
+    "skillToTeach": "Reiki",
+    "mode": "in-person",
+    "location": "Bergen, NO",
+    "availability": "Tuesdays and Thursdays, 4:00 pm - 7:00 pm"
+  },
+  {
+    "id": "47",
+    "user": "47",
+    "picture": "https://randomuser.me/api/portraits/men/70.jpg",
+    "skillToLearn": "Drumming",
+    "skillToTeach": "Crystal Healing",
+    "mode": "online",
+    "location": "Helsinki, FI",
+    "availability": "Mondays, mornings"
+  },
+  {
+    "id": "48",
+    "user": "48",
+    "picture": "https://randomuser.me/api/portraits/women/1.jpg",
+    "skillToLearn": "Running",
+    "skillToTeach": "Tarot Reading",
+    "mode": "in-person",
+    "location": "Tampere, FI",
+    "availability": "Saturdays, 8:00 am - 11:00 am"
+  },
+  {
+    "id": "49",
+    "user": "49",
+    "picture": "https://randomuser.me/api/portraits/women/34.jpg",
+    "skillToLearn": "Boxing",
+    "skillToTeach": "Astrology",
+    "mode": "in-person",
+    "location": "Copenhagen, DK",
+    "availability": "Sundays, afternoons"
+  },
+  {
+    "id": "50",
+    "user": "50",
+    "picture": "https://randomuser.me/api/portraits/women/23.jpg",
+    "skillToLearn": "Computer Science",
+    "skillToTeach": "Skateboarding",
+    "mode": "online",
+    "location": "Aarhus, DK",
+    "availability": "Mondays and Wednesdays, 10:00 am - 12:00 pm"
+  },
+  {
+    "id": "51",
+    "user": "51",
+    "picture": "https://randomuser.me/api/portraits/men/57.jpg",
+    "skillToLearn": "Nature Photography",
+    "skillToTeach": "Cycling",
+    "mode": "in-person",
+    "location": "Malmö, SE",
+    "availability": "Thursdays, 9:00 am - 11:00 am"
+  },
+  {
+    "id": "52",
+    "user": "52",
+    "picture": "https://randomuser.me/api/portraits/men/49.jpg",
+    "skillToLearn": "Knitting",
+    "skillToTeach": "Running",
+    "mode": "online",
+    "location": "Reykjavik, IS",
+    "availability": "Fridays, evenings"
+  },
+  {
+    "id": "53",
+    "user": "53",
+    "picture": "https://randomuser.me/api/portraits/men/69.jpg",
+    "skillToLearn": "Fashion Design",
+    "skillToTeach": "Parkour",
+    "mode": "online",
+    "location": "Edmonton, CA",
+    "availability": "Weekends, all day"
+  },
+  {
+    "id": "54",
+    "user": "54",
+    "picture": "https://randomuser.me/api/portraits/men/29.jpg",
+    "skillToLearn": "Surf Culture",
+    "skillToTeach": "Rock Climbing",
+    "mode": "in-person",
+    "location": "Toronto, CA",
+    "availability": "Monday to Friday, 7:00 am - 9:00 am"
+  },
+  {
+    "id": "55",
+    "user": "55",
+    "picture": "https://randomuser.me/api/portraits/women/52.jpg",
+    "skillToLearn": "Tai Chi",
+    "skillToTeach": "Snowboarding",
+    "mode": "in-person",
+    "location": "Vancouver, CA",
+    "availability": "Sundays, 3:00 pm - 6:00 pm"
+  },
+  {
+    "id": "56",
+    "user": "56",
+    "picture": "https://randomuser.me/api/portraits/men/7.jpg",
+    "skillToLearn": "Self-Defense",
+    "skillToTeach": "Skiing",
+    "mode": "online",
+    "location": "Montreal, CA",
+    "availability": "Tuesdays, 6:00 pm - 8:00 pm"
+  },
+  {
+    "id": "57",
+    "user": "57",
+    "picture": "https://randomuser.me/api/portraits/men/0.jpg",
+    "skillToLearn": "Archery",
+    "skillToTeach": "Kayaking",
+    "mode": "online",
+    "location": "Ottawa, CA",
+    "availability": "Mondays and Thursdays, 1:00 pm - 4:00 pm"
+  },
+  {
+    "id": "58",
+    "user": "58",
+    "picture": "https://randomuser.me/api/portraits/men/71.jpg",
+    "skillToLearn": "Crossfit",
+    "skillToTeach": "Scuba Diving",
+    "mode": "in-person",
+    "location": "New York, US",
+    "availability": "Wednesdays, 8:00 am - 10:00 am"
+  },
+  {
+    "id": "59",
+    "user": "59",
+    "picture": "https://randomuser.me/api/portraits/men/58.jpg",
+    "skillToLearn": "Spiritual Guidance",
+    "skillToTeach": "Sailing",
+    "mode": "in-person",
+    "location": "Los Angeles, US",
+    "availability": "Fridays, 10:00 am - 12:00 pm"
+  },
+  {
+    "id": "60",
+    "user": "60",
+    "picture": "https://randomuser.me/api/portraits/men/46.jpg",
+    "skillToLearn": "Bird Watching",
+    "skillToTeach": "Horseback Riding",
+    "mode": "online",
+    "location": "San Francisco, US",
+    "availability": "Saturdays, 1:00 pm - 3:00 pm"
+  },
+  {
+    "id": "61",
+    "user": "61",
+    "picture": "https://randomuser.me/api/portraits/men/35.jpg",
+    "skillToLearn": "Surf Culture",
+    "skillToTeach": "Dog Training",
+    "mode": "online",
+    "location": "Austin, US",
+    "availability": "Mondays and Fridays, after 7:00 pm"
+  },
+  {
+    "id": "62",
+    "user": "62",
+    "picture": "https://randomuser.me/api/portraits/men/86.jpg",
+    "skillToLearn": "Piano Playing",
+    "skillToTeach": "Fishing",
+    "mode": "in-person",
+    "location": "Seattle, US",
+    "availability": "Wednesdays, 4:00 pm - 6:00 pm"
+  },
+  {
+    "id": "63",
+    "user": "63",
+    "picture": "https://randomuser.me/api/portraits/men/3.jpg",
+    "skillToLearn": "Bodybuilding",
+    "skillToTeach": "Survival Skills",
+    "mode": "in-person",
+    "location": "Denver, US",
+    "availability": "Tuesdays, 9:00 am - 11:00 am"
+  },
+  {
+    "id": "64",
+    "user": "64",
+    "picture": "https://randomuser.me/api/portraits/men/70.jpg",
+    "skillToLearn": "Skate Culture",
+    "skillToTeach": "Sign Language",
+    "mode": "online",
+    "location": "Boston, US",
+    "availability": "Weekends, 12:00 pm - 4:00 pm"
+  },
+  {
+    "id": "65",
+    "user": "65",
+    "picture": "https://randomuser.me/api/portraits/men/1.jpg",
+    "skillToLearn": "Feng Shui",
+    "skillToTeach": "Spanish",
+    "mode": "online",
+    "location": "Miami, US",
+    "availability": "Mondays, 7:00 pm - 9:00 pm"
+  },
+  {
+    "id": "66",
+    "user": "66",
+    "picture": "https://randomuser.me/api/portraits/women/37.jpg",
+    "skillToLearn": "Tattoo Art",
+    "skillToTeach": "French",
+    "mode": "in-person",
+    "location": "Chicago, US",
+    "availability": "Thursdays, 11:00 am - 2"
+  },
+  {
+    "id": "67",
+    "user": "67",
+    "picture": "https://randomuser.me/api/portraits/women/35.jpg",
+    "skillToLearn": "Lacrosse",
+    "skillToTeach": "Italian",
+    "mode": "in-person",
+    "location": "Dallas, US",
+    "availability": "Wednesdays, 7:00 pm - 9:00 pm"
+  },
+  {
+    "id": "68",
+    "user": "68",
+    "picture": "https://randomuser.me/api/portraits/men/80.jpg",
+    "skillToLearn": "Public Speaking",
+    "skillToTeach": "German",
+    "mode": "online",
+    "location": "Atlanta, US",
+    "availability": "Thursdays, 12:00 pm - 3:00 pm"
+  },
+  {
+    "id": "69",
+    "user": "69",
+    "picture": "https://randomuser.me/api/portraits/men/31.jpg",
+    "skillToLearn": "Mindfulness",
+    "skillToTeach": "Japanese",
+    "mode": "in-person",
+    "location": "Phoenix, US",
+    "availability": "Sundays, 9:00 am - 12:00 pm"
+  },
+  {
+    "id": "70",
+    "user": "70",
+    "picture": "https://randomuser.me/api/portraits/women/32.jpg",
+    "skillToLearn": "Street Art",
+    "skillToTeach": "Chinese",
+    "mode": "in-person",
+    "location": "San Diego, US",
+    "availability": "Fridays, 11:00 am - 2:00 pm"
+  },
+  {
+    "id": "71",
+    "user": "71",
+    "picture": "https://randomuser.me/api/portraits/men/26.jpg",
+    "skillToLearn": "Camping",
+    "skillToTeach": "Arabic",
+    "mode": "online",
+    "location": "Las Vegas, US",
+    "availability": "Mondays, 3:00 pm - 6:00 pm"
+  },
+  {
+    "id": "72",
+    "user": "72",
+    "picture": "https://randomuser.me/api/portraits/men/90.jpg",
+    "skillToLearn": "Canoeing",
+    "skillToTeach": "Russian",
+    "mode": "in-person",
+    "location": "Houston, US",
+    "availability": "Tuesdays and Thursdays, 4:00 pm - 7:00 pm"
+  },
+  {
+    "id": "73",
+    "user": "73",
+    "picture": "https://randomuser.me/api/portraits/women/67.jpg",
+    "skillToLearn": "Snowboarding",
+    "skillToTeach": "Portuguese",
+    "mode": "in-person",
+    "location": "Orlando, US",
+    "availability": "Mondays, mornings"
+  },
+  {
+    "id": "74",
+    "user": "74",
+    "picture": "https://randomuser.me/api/portraits/men/92.jpg",
+    "skillToLearn": "Woodworking",
+    "skillToTeach": "Hiking",
+    "mode": "online",
+    "location": "Honolulu, US",
+    "availability": "Saturdays, 8:00 am - 11:00 am"
+  },
+  {
+    "id": "75",
+    "user": "75",
+    "picture": "https://randomuser.me/api/portraits/women/81.jpg",
+    "skillToLearn": "Photography",
+    "skillToTeach": "Birdwatching",
+    "mode": "online",
+    "location": "Mexico City, MX",
+    "availability": "Sundays, afternoons"
+  },
+  {
+    "id": "76",
+    "user": "76",
+    "picture": "https://randomuser.me/api/portraits/women/94.jpg",
+    "skillToLearn": "Rock Climbing",
+    "skillToTeach": "Foraging",
+    "mode": "in-person",
+    "location": "Santa Teresa, CR",
+    "availability": "Mondays and Wednesdays, 10:00 am - 12:00 pm"
+  },
+  {
+    "id": "77",
+    "user": "77",
+    "picture": "https://randomuser.me/api/portraits/women/12.jpg",
+    "skillToLearn": "Parkour",
+    "skillToTeach": "Camping",
+    "mode": "in-person",
+    "location": "Guadalajara, MX",
+    "availability": "Thursdays, 9:00 am - 11:00 am"
+  },
+  {
+    "id": "78",
+    "user": "78",
+    "picture": "https://randomuser.me/api/portraits/women/36.jpg",
+    "skillToLearn": "Horseback Riding",
+    "skillToTeach": "Astrophotography",
+    "mode": "online",
+    "location": "Monterrey, MX",
+    "availability": "Fridays, evenings"
+  },
+  {
+    "id": "79",
+    "user": "79",
+    "picture": "https://randomuser.me/api/portraits/women/3.jpg",
+    "skillToLearn": "Golf",
+    "skillToTeach": "3D Modeling",
+    "mode": "in-person",
+    "location": "Medellin, CO",
+    "availability": "Weekends, all day"
+  },
+  {
+    "id": "80",
+    "user": "80",
+    "picture": "https://randomuser.me/api/portraits/men/57.jpg",
+    "skillToLearn": "Photography",
+    "skillToTeach": "Animation",
+    "mode": "online",
+    "location": "Bogotá, CO",
+    "availability": "Monday to Friday, 7:00 am - 9:00 am"
+  },
+  {
+    "id": "81",
+    "user": "81",
+    "picture": "https://randomuser.me/api/portraits/women/71.jpg",
+    "skillToLearn": "French Cooking",
+    "skillToTeach": "Acting",
+    "mode": "online",
+    "location": "Quito, EC",
+    "availability": "Sundays, 3:00 pm - 6:00 pm"
+  },
+  {
+    "id": "82",
+    "user": "82",
+    "picture": "https://randomuser.me/api/portraits/men/95.jpg",
+    "skillToLearn": "Candle Making",
+    "skillToTeach": "Directing",
+    "mode": "in-person",
+    "location": "Lima, PE",
+    "availability": "Tuesdays, 6:00 pm - 8:00 pm"
+  },
+  {
+    "id": "83",
+    "user": "83",
+    "picture": "https://randomuser.me/api/portraits/men/39.jpg",
+    "skillToLearn": "Yoga Nidra",
+    "skillToTeach": "Script Analysis",
+    "mode": "online",
+    "location": "Santiago, CL",
+    "availability": "Mondays and Thursdays, 1:00 pm - 4:00 pm"
+  },
+  {
+    "id": "84",
+    "user": "84",
+    "picture": "https://randomuser.me/api/portraits/men/2.jpg",
+    "skillToLearn": "Baking",
+    "skillToTeach": "Entrepreneurship",
+    "mode": "in-person",
+    "location": "Buenos Aires, AR",
+    "availability": "Wednesdays, 8:00 am - 10:00 am"
+  },
+  {
+    "id": "85",
+    "user": "85",
+    "picture": "https://randomuser.me/api/portraits/women/57.jpg",
+    "skillToLearn": "Personal Branding",
+    "skillToTeach": "Finance Basics",
+    "mode": "online",
+    "location": "São Paulo, BR",
+    "availability": "Fridays, 10:00 am - 12:00 pm"
+  },
+  {
+    "id": "86",
+    "user": "86",
+    "picture": "https://randomuser.me/api/portraits/women/67.jpg",
+    "skillToLearn": "Cycling",
+    "skillToTeach": "Investing",
+    "mode": "online",
+    "location": "Rio de Janeiro, BR",
+    "availability": "Saturdays, 1:00 pm - 3:00 pm"
+  },
+  {
+    "id": "87",
+    "user": "87",
+    "picture": "https://randomuser.me/api/portraits/men/71.jpg",
+    "skillToLearn": "Scrapbooking",
+    "skillToTeach": "Real Estate",
+    "mode": "in-person",
+    "location": "Brasilia, BR",
+    "availability": "Mondays and Fridays, after 7:00 pm"
+  },
+  {
+    "id": "88",
+    "user": "88",
+    "picture": "https://randomuser.me/api/portraits/women/23.jpg",
+    "skillToLearn": "Astronomy",
+    "skillToTeach": "Project Management",
+    "mode": "online",
+    "location": "Cape Town, ZA",
+    "availability": "Wednesdays, 7:00 pm - 9:00 pm"
+  },
+  {
+    "id": "89",
+    "user": "89",
+    "picture": "https://randomuser.me/api/portraits/men/8.jpg",
+    "skillToLearn": "Fishing",
+    "skillToTeach": "Public Relations",
+    "mode": "in-person",
+    "location": "Johannesburg, ZA",
+    "availability": "Thursdays, 12:00 pm - 3:00 pm"
+  },
+  {
+    "id": "90",
+    "user": "90",
+    "picture": "https://randomuser.me/api/portraits/women/35.jpg",
+    "skillToLearn": "Cooking Classes",
+    "skillToTeach": "Event Planning",
+    "mode": "in-person",
+    "location": "Nairobi, KE",
+    "availability": "Sundays, 9:00 am - 12:00 pm"
+  },
+  {
+    "id": "91",
+    "user": "91",
+    "picture": "https://randomuser.me/api/portraits/men/15.jpg",
+    "skillToLearn": "Barista Skills",
+    "skillToTeach": "Culinary Arts",
+    "mode": "online",
+    "location": "Accra, GH",
+    "availability": "Fridays, 11:00 am - 2:00 pm"
+  },
+  {
+    "id": "92",
+    "user": "92",
+    "picture": "https://randomuser.me/api/portraits/women/66.jpg",
+    "skillToLearn": "Mindfulness Meditation",
+    "skillToTeach": "Sommelier Training",
+    "mode": "in-person",
+    "location": "Lagos, NG",
+    "availability": "Mondays, 3:00 pm - 6:00 pm"
+  },
+  {
+    "id": "93",
+    "user": "93",
+    "picture": "https://randomuser.me/api/portraits/women/44.jpg",
+    "skillToLearn": "Tennis Coaching",
+    "skillToTeach": "Baking",
+    "mode": "online",
+    "location": "Cairo, EG",
+    "availability": "Tuesdays and Thursdays, 4:00 pm - 7:00 pm"
+  },
+  {
+    "id": "94",
+    "user": "94",
+    "picture": "https://randomuser.me/api/portraits/men/28.jpg",
+    "skillToLearn": "CrossFit Training",
+    "skillToTeach": "Martial Arts",
+    "mode": "in-person",
+    "location": "Istanbul, TR",
+    "availability": "Mondays, mornings"
+  },
+  {
+    "id": "95",
+    "user": "95",
+    "picture": "https://randomuser.me/api/portraits/men/66.jpg",
+    "skillToLearn": "Poetry Writing",
+    "skillToTeach": "Taekwondo",
+    "mode": "online",
+    "location": "Dubai, AE",
+    "availability": "Saturdays, 8:00 am - 11:00 am"
+  },
+  {
+    "id": "96",
+    "user": "96",
+    "picture": "https://randomuser.me/api/portraits/women/78.jpg",
+    "skillToLearn": "Beekeeping",
+    "skillToTeach": "Karate",
+    "mode": "online",
+    "location": "Abu Dhabi, AE",
+    "availability": "Sundays, afternoons"
+  },
+  {
+    "id": "97",
+    "user": "97",
+    "picture": "https://randomuser.me/api/portraits/women/45.jpg",
+    "skillToLearn": "Jewelry Making",
+    "skillToTeach": "Judo",
+    "mode": "in-person",
+    "location": "New Delhi, IN",
+    "availability": "Mondays and Wednesdays, 10:00 am - 12:00 pm"
+  },
+  {
+    "id": "98",
+    "user": "98",
+    "picture": "https://randomuser.me/api/portraits/women/2.jpg",
+    "skillToLearn": "Chinese Calligraphy",
+    "skillToTeach": "Fencing",
+    "mode": "in-person",
+    "location": "Mumbai, IN",
+    "availability": "Thursdays, 9:00 am - 11:00 am"
+  },
+  {
+    "id": "99",
+    "user": "99",
+    "picture": "https://randomuser.me/api/portraits/men/34.jpg",
+    "skillToLearn": "Yoga Therapy",
+    "skillToTeach": "Archery",
+    "mode": "online",
+    "location": "Bangalore, IN",
+    "availability": "Fridays, evenings"
+  },
+  {
+    "id": "100",
+    "user": "100",
+    "picture": "https://randomuser.me/api/portraits/women/53.jpg",
+    "skillToLearn": "Guitar Playing",
+    "skillToTeach": "Wine Tasting",
+    "mode": "in-person",
+    "location": "Beijing, CN",
+    "availability": "Weekends, all day"
+  }
+]

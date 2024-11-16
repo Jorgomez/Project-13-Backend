@@ -1,0 +1,72 @@
+[
+  {
+    "id": "1",
+    "sender": "12",
+    "recipient": "10",
+    "skillRequest": "10",
+    "messageContent": "Looking forward to our session!"
+  },
+  {
+    "id": "2",
+    "sender": "1",
+    "recipient": "15",
+    "skillRequest": "15",
+    "messageContent": "I’m excited to learn from you."
+  },
+  {
+    "id": "3",
+    "sender": "3",
+    "recipient": "20",
+    "skillRequest": "20",
+    "messageContent": "What materials should I prepare?"
+  },
+  {
+    "id": "4",
+    "sender": "3",
+    "recipient": "25",
+    "skillRequest": "25",
+    "messageContent": "Can we meet a bit earlier next time?"
+  },
+  {
+    "id": "5",
+    "sender": "34",
+    "recipient": "30",
+    "skillRequest": "30",
+    "messageContent": "Thank you for the advice on my practice."
+  },
+  {
+    "id": "6",
+    "sender": "40",
+    "recipient": "35",
+    "skillRequest": "35",
+    "messageContent": "I appreciate your guidance, it’s been super helpful."
+  },
+  {
+    "id": "7",
+    "sender": "43",
+    "recipient": "40",
+    "skillRequest": "40",
+    "messageContent": "Could you send me some exercises to practice?"
+  },
+  {
+    "id": "8",
+    "sender": "46",
+    "recipient": "45",
+    "skillRequest": "45",
+    "messageContent": "I’m making great progress thanks to you!"
+  },
+  {
+    "id": "9",
+    "sender": "49",
+    "recipient": "50",
+    "skillRequest": "50",
+    "messageContent": "Could we focus on technique next time?"
+  },
+  {
+    "id": "10",
+    "sender": "52",
+    "recipient": "55",
+    "skillRequest": "55",
+    "messageContent": "Do you offer sessions on weekends?"
+  }
+]

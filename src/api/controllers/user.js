@@ -193,7 +193,18 @@ const addElementId = async (req, res) => {
       return res.status(404).json({ error: 'User not found' })
     }
 
-    return res.status(200).json(updatedUserPopulated)
+    return res
+      .status(200)
+      .json(updatedUserPopulated)
+      .populate({
+        path: 'messages',
+        populate: [
+          { path: 'sender', select: 'name profilePicture' },
+          { path: 'skillRequest', select: 'skillToTeach' },
+          { path: 'reply', select: 'messageContent sender' },
+          { path: 'originalMessage', select: 'messageContent sentAt' }
+        ]
+      })
   } catch (error) {
     return res
       .status(400)

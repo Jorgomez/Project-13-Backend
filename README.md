@@ -5,7 +5,7 @@ This project is the backend API for a skill exchange platform, where users can c
 ## Features
 
 - User Authentication: Register, login, and manage user profiles with secure password hashing.
-- Skill Requests: Users can post, and delete skill requests, including options to add likes and manage media.
+- Skill Requests: Users can post skill requests, including options to add likes and manage media.
 - Messaging: Send and receive messages between users with skill request details.
 - CRUD Operations: For users
 
@@ -60,19 +60,6 @@ it's important to match the related field between the shemas, please use the com
 
 npm run injectRelatedFields
 
-## User Roles
-
-Users can have the following roles:
-
-User: Regular users who can create skill requests and interact with other users.
-Admin: Admin users who can manage other users (e.g., promote to admin, delete users)
-Admin Privileges:
-Admin users have additional permissions such as:
-
-Changing user roles.
-Deleting users and their skill requests.
-Managing skill requests (deleting).
-
 ## API URL
 
 ...
@@ -80,4 +67,5 @@ Managing skill requests (deleting).
 ## Website URL
 
 ....
+
 # Project-13-Backend

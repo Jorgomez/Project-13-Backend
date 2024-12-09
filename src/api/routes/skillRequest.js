@@ -9,13 +9,27 @@ const {
   createSkillRequest,
   updateSkillRequest,
   getSkillRequestsById,
-  addLike,
+
   removeLikeFromReq,
-  deleteSkillRequest
+  deleteSkillRequest,
+  addUserId,
+  getAllSkillRequests,
+  getSkillRequestsProgressive,
+  getSkillRequestsByWord,
+  getSkillRequestsByLocation
 } = require('../controllers/skillRequest')
 const skillRequestsRouter = require('express').Router()
 
-skillRequestsRouter.get('/', getSkillRequests)
+skillRequestsRouter.get('/', getAllSkillRequests)
+skillRequestsRouter.get(
+  '/progressive',
+
+  getSkillRequestsProgressive
+)
+skillRequestsRouter.get('/skill', getSkillRequestsByWord)
+
+skillRequestsRouter.get('/location', getSkillRequestsByLocation)
+
 skillRequestsRouter.get('/:id', isAuth, getSkillRequestsById)
 
 skillRequestsRouter.post(
@@ -30,10 +44,8 @@ skillRequestsRouter.put(
   upload('project13/pictures').fields([{ name: 'picture' }]),
   updateSkillRequest
 )
-skillRequestsRouter.put('/like/:id', addLike)
-
-skillRequestsRouter.put('/removeLike/:id', removeLikeFromReq)
-
+skillRequestsRouter.put('/like/:id', addUserId)
+skillRequestsRouter.put('/disLike/:id', removeLikeFromReq)
 skillRequestsRouter.delete('/:id', isCreatorOrAdmin, deleteSkillRequest)
 
 module.exports = skillRequestsRouter

@@ -8,8 +8,7 @@ const { deleteFile } = require('../../utils/Functions/delete.file')
 
 const getUsers = async (req, res, next) => {
   try {
-    const users = await User.find().populate('likes')
-    // .populate('messages')
+    const users = await User.find().populate('likes').populate('messages')
     return res.status(200).json(users)
   } catch (error) {
     return res
@@ -22,7 +21,11 @@ const getUserById = async (req, res, next) => {
   try {
     const { id } = req.params
     userFound = await User.findById(id)
-    // .populate('events')
+      .populate('likes')
+      .populate({
+        path: 'messages',
+        populate: { path: 'sender', select: 'name' }
+      })
 
     if (!userFound) {
       return res.status(404).json({ error: 'User not found' })
@@ -35,48 +38,56 @@ const getUserById = async (req, res, next) => {
       .json({ error: 'Error fetching user by ID', details: error.message })
   }
 }
-
-const register = async (req, res, next) => {
+const register = async (req, res) => {
   try {
-    const { email } = req.body
-    const newUser = new User({
-      name: req.body.name,
-      email: req.body.email,
-      password: req.body.password,
-      skillToLearn: req.body.skillToLearn,
-      // role: req.body.role,
-      profilePicture: req.body.profilePicture
-    })
-    if (req.files) {
-      newUser.profilePicture = req.files.profilePicture[0].path
-    }
+    const { email, userName, password, skillToLearn } = req.body
+
     const emailDuplicated = await User.findOne({ email })
+
     if (emailDuplicated) {
       return res.status(400).json({
-        error: `The email "${email}" is already registered. Please use a different email.`
+        error: `The email "${email}" is already registered. Use a different email.`
       })
     }
 
-    // if (skillrequests) {
-    //   const filterdEvents = Array.from(
-    //     new Set(events.map((eventId) => eventId.toString()))
-    //   )
-    //   newUser.events = filterdEvents
-    // }
-    const userSaved = await newUser.save()
+    const newUser = new User({
+      name: userName,
+      email,
+      password,
+      skillToLearn,
+      profilePicture: ''
+    })
 
+    if (req.files?.profilePicture?.[0]) {
+      newUser.profilePicture = req.files.profilePicture[0].path
+    }
+
+    const userSaved = await newUser.save()
     return res.status(201).json(userSaved)
   } catch (error) {
-    return res
-      .status(400)
-      .json({ error: 'Error in register function', details: error.message })
+    return res.status(400).json({
+      error: 'Error  register Function',
+      detalles: error.message
+    })
   }
 }
 
 const login = async (req, res, next) => {
   try {
     const { email, password } = req.body
-    const user = await User.findOne({ email })
+
+    console.log('backdata', email, password)
+
+    const user = await User.findOne({ email }).populate({
+      path: 'messages',
+      populate: [
+        { path: 'sender', select: 'name profilePicture' },
+        { path: 'skillRequest', select: 'skillToTeach' },
+        { path: 'reply', select: 'messageContent sender' },
+        { path: 'originalMessage', select: 'messageContent sentAt' }
+      ]
+    })
+
     if (!user) {
       return res.status(400).json({ error: 'Incorrect email or password' })
     }
@@ -102,22 +113,25 @@ const updateUser = async (req, res, next) => {
   try {
     const { id } = req.params
     const currentValuesUser = await User.findById(id).populate('likes')
+
     if (!currentValuesUser) {
       return res.status(404).json({ error: 'User not found' })
     }
     const updateReq = req.body
-    const { likes: newLikeid = [], messages: newMessagesid = [] } = req.body
 
-    currentValuesUser.likes = currentValuesUser.likes || []
-    currentValuesUser.messages = currentValuesUser.messages || []
+    console.log('cuerpo:', updateReq)
+    // const { likes: newLikeid = [], messages: newMessagesid = [] } = req.body
 
-    newLikeid &&
-      (updateReq.likes = filterStrings(newLikeid, currentValuesUser.likes))
-    newMessagesid &&
-      (updateReq.messages = filterStrings(
-        newMessagesid,
-        currentValuesUser.messages
-      ))
+    // currentValuesUser.likes = currentValuesUser.likes || []
+    // currentValuesUser.messages = currentValuesUser.messages || []
+
+    // newLikeid &&
+    //   (updateReq.likes = filterStrings(newLikeid, currentValuesUser.likes))
+    // newMessagesid &&
+    //   (updateReq.messages = filterStrings(
+    //     newMessagesid,
+    //     currentValuesUser.messages
+    //   ))
 
     if (
       req.files &&
@@ -132,11 +146,19 @@ const updateUser = async (req, res, next) => {
     }
     const updatedUser = await User.findByIdAndUpdate(id, updateReq, {
       new: true
+    }).populate({
+      path: 'messages',
+      populate: [
+        { path: 'sender', select: 'name profilePicture' },
+        { path: 'skillRequest', select: 'skillToTeach' },
+        { path: 'reply', select: 'messageContent sender' },
+        { path: 'originalMessage', select: 'messageContent sentAt' }
+      ]
     })
 
     return res.status(200).json({
-      message: 'User successfully updated',
-      user: updatedUser
+      user: updatedUser,
+      message: 'user Updated Sucefully'
     })
   } catch (error) {
     return res
@@ -145,10 +167,10 @@ const updateUser = async (req, res, next) => {
   }
 }
 
-const addLikesMessages = async (req, res) => {
+const addElementId = async (req, res) => {
   try {
     const { id } = req.params
-    const { likes = [], messages = [] } = req.body
+    const { likes = [], messages = [], skillRequests = [] } = req.body
 
     const updateFields = {}
     if (likes.length) {
@@ -157,21 +179,21 @@ const addLikesMessages = async (req, res) => {
     if (messages.length) {
       updateFields.messages = { $each: messages }
     }
-
+    if (skillRequests.length) {
+      updateFields.skillRequests = { $each: skillRequests }
+    }
     const updatedUser = await User.findByIdAndUpdate(
       id,
       { $addToSet: updateFields },
       { new: true }
     )
+    const updatedUserPopulated = await updatedUser.populate('messages')
 
     if (!updatedUser) {
       return res.status(404).json({ error: 'User not found' })
     }
 
-    return res.status(200).json({
-      message: 'Fields successfully updated',
-      user: updatedUser
-    })
+    return res.status(200).json(updatedUserPopulated)
   } catch (error) {
     return res
       .status(400)
@@ -182,9 +204,8 @@ const addLikesMessages = async (req, res) => {
 const removeFavoriteFromUser = async (req, res) => {
   try {
     const userId = req.params.id
-
     const { likes } = req.body
-
+    console.log('like to remove', likes, 'user id', userId)
     const updatedUser = await User.findByIdAndUpdate(
       userId,
       { $pull: { likes } },
@@ -223,7 +244,7 @@ module.exports = {
   register,
   login,
   updateUser,
-  addLikesMessages,
+  addElementId,
   removeFavoriteFromUser,
   deleteUser
 }

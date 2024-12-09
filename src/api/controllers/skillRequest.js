@@ -1,7 +1,7 @@
 const { deleteFile } = require('../../utils/Functions/delete.file')
 const SkillRequest = require('../models/skillRequest')
 
-const getSkillRequests = async (req, res, next) => {
+const getAllSkillRequests = async (req, res, next) => {
   try {
     const skillRequests = await SkillRequest.find()
       .populate('user')
@@ -9,6 +9,79 @@ const getSkillRequests = async (req, res, next) => {
     return res.status(200).json(skillRequests)
   } catch (error) {
     return res.status(400).json('error getEvents Function')
+  }
+}
+
+const getSkillRequestsProgressive = async (req, res, next) => {
+  try {
+    const { offset = 0, limit = 20 } = req.query
+
+    const skillRequests = await SkillRequest.find()
+      .populate('user')
+      .populate('likes')
+      .skip(parseInt(offset))
+      .limit(parseInt(limit))
+
+    const total = await SkillRequest.countDocuments()
+
+    return res.status(200).json({
+      skillRequests,
+      hasMore: parseInt(offset) + parseInt(limit) < total
+    })
+  } catch (error) {
+    return res.status(400).json({
+      error: 'Error fetchigin skill requests  ',
+      details: error.message
+    })
+  }
+}
+
+const getSkillRequestsByWord = async (req, res, next) => {
+  try {
+    const { field, value } = req.query // Obtener el campo y valor de la consulta
+
+    if (!field || !value) {
+      return res.status(400).json({
+        error: 'Missing field or value in query parameters'
+      })
+    }
+
+    console.log(`Filtering by ${field}: ${value}`)
+    const filter = { [field]: { $regex: value, $options: 'i' } }
+
+    const skillRequests = await SkillRequest.find(filter)
+      .populate('user')
+      .populate('likes')
+
+    return res.status(200).json(skillRequests)
+  } catch (error) {
+    return res.status(400).json({
+      error: 'Error filtering skill requests',
+      details: error.message
+    })
+  }
+}
+
+const getSkillRequestsByLocation = async (req, res, next) => {
+  try {
+    const { location } = req.query
+    const regex = new RegExp(location, 'i')
+
+    const skillRequests = await SkillRequest.find({
+      $or: [
+        { 'location.city': { $regex: regex } },
+        { 'location.country': { $regex: regex } }
+      ]
+    })
+      .populate('user')
+      .populate('likes')
+
+    return res.status(200).json(skillRequests)
+  } catch (error) {
+    return res.status(400).json({
+      error: 'Error filtering skill requests by location',
+      details: error.message
+    })
   }
 }
 
@@ -24,13 +97,8 @@ const getSkillRequestsById = async (req, res, next) => {
   }
 }
 
-// verificar al momento de tener el fron, como ingesare los campos  skillToLearn, skillToTeach, alternativeOffer ======>
 const createSkillRequest = async (req, res, next) => {
   try {
-    // const { skillToLearn, skillToTeach, alternativeOffer } = req.body
-
-    // console.log(skillToLearn, skillToTeach, alternativeOffer)
-
     const newSkillRequest = new SkillRequest({
       ...req.body,
       user: req.user._id
@@ -39,8 +107,6 @@ const createSkillRequest = async (req, res, next) => {
     if (req.files && req.files.picture && req.files.picture[0]) {
       newSkillRequest.picture = req.files.picture[0].path
     }
-
-    // Filtrar valores únicos solo si están presentes
 
     // const filterdskillToLearn = Array.from(
     //   new Set(skillToLearn.map((skill) => skill))
@@ -63,7 +129,14 @@ const createSkillRequest = async (req, res, next) => {
 
     const SkillRequestSaved = await newSkillRequest.save()
 
-    return res.status(201).json(SkillRequestSaved)
+    const populatedSkillRequest = await SkillRequestSaved.populate({
+      path: 'user',
+      select: 'name'
+    })
+
+    console.log(populatedSkillRequest)
+
+    return res.status(201).json(populatedSkillRequest)
   } catch (error) {
     return res
       .status(400)
@@ -101,7 +174,7 @@ const updateSkillRequest = async (req, res, next) => {
     return res.status(400).json('error to update'), console.log(error)
   }
 }
-const addLike = async (req, res) => {
+const addUserId = async (req, res) => {
   try {
     const { id } = req.params
     const { likes } = req.body
@@ -119,7 +192,6 @@ const addLike = async (req, res) => {
       return res.status(404).json({ error: 'SkillRequest not found' })
     }
 
-    console.log(updatedSkillRequest.likes)
     return res.status(200).json({
       message: 'Fields successfully updated',
       skillRequest: updatedSkillRequest
@@ -170,11 +242,14 @@ const deleteSkillRequest = async (req, res, next) => {
   }
 }
 module.exports = {
-  getSkillRequests,
+  getAllSkillRequests,
+  getSkillRequestsProgressive,
   getSkillRequestsById,
   createSkillRequest,
   updateSkillRequest,
-  addLike,
+  addUserId,
   removeLikeFromReq,
-  deleteSkillRequest
+  deleteSkillRequest,
+  getSkillRequestsByWord,
+  getSkillRequestsByLocation
 }

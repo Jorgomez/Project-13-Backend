@@ -138,6 +138,7 @@ const isCreatorOrAdmin = async (req, res, next) => {
     return res.status(400).json('you are not authorized'), console.log(error)
   }
 }
+
 module.exports = {
   isAuth,
   isUserOrAdmin,

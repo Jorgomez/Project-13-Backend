@@ -14,9 +14,17 @@ const bombSkillRequest = async () => {
       'src/data/json/skillRequest.json',
       'utf-8'
     )
-    const skillRequest = JSON.parse(skillRequestData)
+    // const skillsRequest = JSON.parse(skillRequestData)
 
-    await SkillRequest.insertMany(skillRequest)
+    const skillsRequest = JSON.parse(skillRequestData).map((skillRequest) => ({
+      ...skillRequest,
+      location: {
+        city: skillRequest.city,
+        country: skillRequest.country
+      }
+    }))
+
+    await SkillRequest.insertMany(skillsRequest)
     console.log('Skill Request introduced')
 
     await mongoose.disconnect()

@@ -6,8 +6,10 @@
     "skillToLearn": "Yoga",
     "skillToTeach": "Meditation",
     "mode": "online",
-    "location": "Lisbon, PT",
-    "availability": "Monday to Friday, after 6:00 pm"
+    "city": "Lisbon",
+    "country": "Portugal",
+    "availability": "Monday to Friday, after 6:00 pm",
+    "additionalInfo": "Seeking ways to balance body and mind through yoga practice."
   },
   {
     "id": "2",
@@ -16,8 +18,10 @@
     "skillToLearn": "Meditation",
     "skillToTeach": "Breathwork",
     "mode": "in-person",
-    "location": "Porto, PT",
-    "availability": "Saturdays, 12:00 pm - 3:00 pm"
+    "city": "Porto",
+    "country": "Portugal",
+    "availability": "Saturdays, 12:00 pm - 3:00 pm",
+    "additionalInfo": "Looking for mindfulness techniques to deepen meditation practice."
   },
   {
     "id": "3",
@@ -26,8 +30,10 @@
     "skillToLearn": "Surfing",
     "skillToTeach": "Mindfulness",
     "mode": "in-person",
-    "location": "Barcelona, ES",
-    "availability": "Mondays and Wednesdays, 9:00 am - 12:00 pm"
+    "city": "Barcelona",
+    "country": "Spain",
+    "availability": "Mondays and Wednesdays, 9:00 am - 12:00 pm",
+    "additionalInfo": "Aiming to enhance surfing skills for personal growth."
   },
   {
     "id": "4",
@@ -36,8 +42,10 @@
     "skillToLearn": "Skateboarding",
     "skillToTeach": "Nutrition",
     "mode": "online",
-    "location": "Madrid, ES",
-    "availability": "Fridays, 1:00 pm - 5:00 pm"
+    "city": "Madrid",
+    "country": "Spain",
+    "availability": "Fridays, 1:00 pm - 5:00 pm",
+    "additionalInfo": "Interested in mastering skateboarding basics for improved balance."
   },
   {
     "id": "5",
@@ -46,8 +54,10 @@
     "skillToLearn": "Pilates",
     "skillToTeach": "Acrobatics",
     "mode": "online",
-    "location": "Valencia, ES",
-    "availability": "Weekends, any time"
+    "city": "Valencia",
+    "country": "Spain",
+    "availability": "Weekends, any time",
+    "additionalInfo": "Exploring Pilates to improve body flexibility and strength."
   },
   {
     "id": "6",
@@ -56,8 +66,10 @@
     "skillToLearn": "Spirituality",
     "skillToTeach": "Painting",
     "mode": "in-person",
-    "location": "Rome, IT",
-    "availability": "Tuesday and Thursday, 6:00 pm - 9:00 pm"
+    "city": "Rome",
+    "country": "Italy",
+    "availability": "Tuesday and Thursday, 6:00 pm - 9:00 pm",
+    "additionalInfo": "Eager to connect spirituality with daily life practices."
   },
   {
     "id": "7",
@@ -66,8 +78,10 @@
     "skillToLearn": "Rock Climbing",
     "skillToTeach": "Photography",
     "mode": "online",
-    "location": "Milan, IT",
-    "availability": "Wednesdays, 3:00 pm - 7:00 pm"
+    "city": "Milan",
+    "country": "Italy",
+    "availability": "Wednesdays, 3:00 pm - 7:00 pm",
+    "additionalInfo": "Wants to conquer new heights through rock climbing guidance."
   },
   {
     "id": "8",
@@ -76,8 +90,10 @@
     "skillToLearn": "Martial Arts",
     "skillToTeach": "Life Coaching",
     "mode": "online",
-    "location": "Paris, FR",
-    "availability": "Monday to Friday, mornings"
+    "city": "Paris",
+    "country": "France",
+    "availability": "Monday to Friday, mornings",
+    "additionalInfo": "Seeking martial arts techniques to enhance discipline and focus."
   },
   {
     "id": "9",
@@ -86,8 +102,10 @@
     "skillToLearn": "Photography",
     "skillToTeach": "Sound Healing",
     "mode": "in-person",
-    "location": "Nice, FR",
-    "availability": "Saturdays, 10:00 am - 2:00 pm"
+    "city": "Nice",
+    "country": "France",
+    "availability": "Saturdays, 10:00 am - 2:00 pm",
+    "additionalInfo": "Desires to capture breathtaking moments with photography expertise."
   },
   {
     "id": "10",
@@ -96,8 +114,10 @@
     "skillToLearn": "Cooking",
     "skillToTeach": "Dance",
     "mode": "in-person",
-    "location": "Berlin, DE",
-    "availability": "Sundays, all day"
+    "city": "Berlin",
+    "country": "Germany",
+    "availability": "Sundays, all day",
+    "additionalInfo": "Learning to cook diverse dishes for cultural exploration."
   },
   {
     "id": "11",
@@ -106,8 +126,10 @@
     "skillToLearn": "Ballet",
     "skillToTeach": "Surfing",
     "mode": "online",
-    "location": "Munich, DE",
-    "availability": "Mondays, after 5:00 pm"
+    "city": "Munich",
+    "country": "Germany",
+    "availability": "Mondays, after 5:00 pm",
+    "additionalInfo": "Exploring ballet to integrate grace and fitness."
   },
   {
     "id": "12",
@@ -116,8 +138,10 @@
     "skillToLearn": "Cycling",
     "skillToTeach": "Yoga",
     "mode": "in-person",
-    "location": "Hamburg, DE",
-    "availability": "Weekends, afternoons"
+    "city": "Hamburg",
+    "country": "Germany",
+    "availability": "Weekends, afternoons",
+    "additionalInfo": "Wants to combine cycling with improved mindfulness techniques."
   },
   {
     "id": "13",
@@ -126,8 +150,10 @@
     "skillToLearn": "Gardening",
     "skillToTeach": "Pilates",
     "mode": "online",
-    "location": "London, UK",
-    "availability": "Thursdays, 4:00 pm - 6:00 pm"
+    "city": "London",
+    "country": "United Kingdom",
+    "availability": "Thursdays, 4:00 pm - 6:00 pm",
+    "additionalInfo": "Curious about gardening tips for urban spaces."
   },
   {
     "id": "14",
@@ -136,8 +162,10 @@
     "skillToLearn": "Drawing",
     "skillToTeach": "Strength Training",
     "mode": "online",
-    "location": "Manchester, UK",
-    "availability": "Sundays, 1:00 pm - 4:00 pm"
+    "city": "Manchester",
+    "country": "United Kingdom",
+    "availability": "Sundays, 1:00 pm - 4:00 pm",
+    "additionalInfo": "Aims to refine drawing skills for self-expression."
   },
   {
     "id": "15",
@@ -146,8 +174,10 @@
     "skillToLearn": "Sculpting",
     "skillToTeach": "Tai Chi",
     "mode": "in-person",
-    "location": "Bristol, UK",
-    "availability": "Monday to Friday, 8:00 am - 11:00 am"
+    "city": "Bristol",
+    "country": "United Kingdom",
+    "availability": "Monday to Friday, 8:00 am - 11:00 am",
+    "additionalInfo": "Eager to learn sculpting techniques for artistic expression."
   },
   {
     "id": "16",
@@ -156,8 +186,10 @@
     "skillToLearn": "Music Theory",
     "skillToTeach": "Jiu-Jitsu",
     "mode": "online",
-    "location": "Edinburgh, UK",
-    "availability": "Tuesdays, 5:00 pm - 8:00 pm"
+    "city": "Edinburgh",
+    "country": "United Kingdom",
+    "availability": "Tuesdays, 5:00 pm - 8:00 pm",
+    "additionalInfo": "Exploring music theory for composing unique melodies."
   },
   {
     "id": "17",
@@ -166,8 +198,10 @@
     "skillToLearn": "Fencing",
     "skillToTeach": "Public Speaking",
     "mode": "in-person",
-    "location": "Dublin, IE",
-    "availability": "Saturdays, mornings"
+    "city": "Dublin",
+    "country": "Ireland",
+    "availability": "Saturdays, mornings",
+    "additionalInfo": "Aims to combine fencing with enhanced reflex training."
   },
   {
     "id": "18",
@@ -176,8 +210,10 @@
     "skillToLearn": "Swimming",
     "skillToTeach": "Creative Writing",
     "mode": "in-person",
-    "location": "Cork, IE",
-    "availability": "Mondays, 10:00 am - 1:00 pm"
+    "city": "Cork",
+    "country": "Ireland",
+    "availability": "Mondays, 10:00 am - 1:00 pm",
+    "additionalInfo": "Interested in learning swimming techniques for fitness and leisure."
   },
   {
     "id": "19",
@@ -186,8 +222,10 @@
     "skillToLearn": "Dancing",
     "skillToTeach": "Cooking",
     "mode": "online",
-    "location": "Amsterdam, NL",
-    "availability": "Wednesdays, 2:00 pm - 5:00 pm"
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "availability": "Wednesdays, 2:00 pm - 5:00 pm",
+    "additionalInfo": "Aspires to use dancing as a creative outlet."
   },
   {
     "id": "20",
@@ -196,8 +234,10 @@
     "skillToLearn": "Chess",
     "skillToTeach": "Chess",
     "mode": "in-person",
-    "location": "Rotterdam, NL",
-    "availability": "Mondays and Fridays, 6:00 pm - 9:00 pm"
+    "city": "Rotterdam",
+    "country": "Netherlands",
+    "availability": "Mondays and Fridays, 6:00 pm - 9:00 pm",
+    "additionalInfo": "Seeks advanced chess strategies for competitive play."
   },
   {
     "id": "21",
@@ -206,8 +246,10 @@
     "skillToLearn": "Salsa",
     "skillToTeach": "Digital Marketing",
     "mode": "online",
-    "location": "Brussels, BE",
-    "availability": "Weekends, 11:00 am - 3:00 pm"
+    "city": "Brussels",
+    "country": "Belgium",
+    "availability": "Weekends, 11:00 am - 3:00 pm",
+    "additionalInfo": "Exploring salsa dancing for cultural and physical enrichment."
   },
   {
     "id": "22",
@@ -216,8 +258,10 @@
     "skillToLearn": "Writing",
     "skillToTeach": "Social Media Management",
     "mode": "in-person",
-    "location": "Antwerp, BE",
-    "availability": "Tuesdays and Thursdays, after 6:00 pm"
+    "city": "Antwerp",
+    "country": "Belgium",
+    "availability": "Tuesdays and Thursdays, after 6:00 pm",
+    "additionalInfo": "Interested in writing techniques to create compelling narratives."
   },
   {
     "id": "23",
@@ -226,8 +270,10 @@
     "skillToLearn": "Calligraphy",
     "skillToTeach": "Woodworking",
     "mode": "in-person",
-    "location": "Zurich, CH",
-    "availability": "Fridays, 3:00 pm - 6:00 pm"
+    "city": "Zurich",
+    "country": "Switzerland",
+    "availability": "Fridays, 3:00 pm - 6:00 pm",
+    "additionalInfo": "Desires to master calligraphy for elegant personal projects."
   },
   {
     "id": "24",
@@ -236,8 +282,10 @@
     "skillToLearn": "Judo",
     "skillToTeach": "Graphic Design",
     "mode": "online",
-    "location": "Geneva, CH",
-    "availability": "Wednesdays, 12:00 pm - 4:00 pm"
+    "city": "Geneva",
+    "country": "Switzerland",
+    "availability": "Wednesdays, 12:00 pm - 4:00 pm",
+    "additionalInfo": "Seeks Judo techniques for improved physical agility."
   },
   {
     "id": "25",
@@ -246,8 +294,10 @@
     "skillToLearn": "Baseball",
     "skillToTeach": "Web Development",
     "mode": "online",
-    "location": "Vienna, AT",
-    "availability": "Mondays and Wednesdays, 5:00 pm - 8:00 pm"
+    "city": "Vienna",
+    "country": "Austria",
+    "availability": "Mondays and Wednesdays, 5:00 pm - 8:00 pm",
+    "additionalInfo": "Curious about baseball skills for amateur team play."
   },
   {
     "id": "26",
@@ -256,8 +306,10 @@
     "skillToLearn": "Football",
     "skillToTeach": "Machine Learning",
     "mode": "in-person",
-    "location": "Salzburg, AT",
-    "availability": "Saturdays, 9:00 am - 12:00 pm"
+    "city": "Salzburg",
+    "country": "Austria",
+    "availability": "Saturdays, 9:00 am - 12:00 pm",
+    "additionalInfo": "Looking to combine football training with teamwork building."
   },
   {
     "id": "27",
@@ -266,8 +318,10 @@
     "skillToLearn": "Brazilian Jiu-Jitsu",
     "skillToTeach": "Data Analysis",
     "mode": "in-person",
-    "location": "Prague, CZ",
-    "availability": "Sundays, 2:00 pm - 6:00 pm"
+    "city": "Prague",
+    "country": "Czech Republic",
+    "availability": "Sundays, 2:00 pm - 6:00 pm",
+    "additionalInfo": "Aiming to learn Jiu-Jitsu for enhanced self-defense techniques."
   },
   {
     "id": "28",
@@ -276,8 +330,10 @@
     "skillToLearn": "Drawing",
     "skillToTeach": "Blockchain Basics",
     "mode": "online",
-    "location": "Brno, CZ",
-    "availability": "Monday to Friday, afternoons"
+    "city": "Brno",
+    "country": "Czech Republic",
+    "availability": "Monday to Friday, afternoons",
+    "additionalInfo": "Eager to refine drawing skills for blockchain-related designs."
   },
   {
     "id": "29",
@@ -286,8 +342,10 @@
     "skillToLearn": "Aikido",
     "skillToTeach": "Singing",
     "mode": "in-person",
-    "location": "Warsaw, PL",
-    "availability": "Weekends, 10:00 am - 2:00 pm"
+    "city": "Warsaw",
+    "country": "Poland",
+    "availability": "Weekends, 10:00 am - 2:00 pm",
+    "additionalInfo": "Exploring Aikido for balance and self-defense."
   },
   {
     "id": "30",
@@ -296,8 +354,10 @@
     "skillToLearn": "Tennis",
     "skillToTeach": "Guitar",
     "mode": "in-person",
-    "location": "Rancagua, CL",
-    "availability": "Mondays, 1:00 pm - 3:00 pm"
+    "city": "Rancagua",
+    "country": "Chile",
+    "availability": "Mondays, 1:00 pm - 3:00 pm",
+    "additionalInfo": "Interested in refining tennis skills for competitive matches."
   },
   {
     "id": "31",
@@ -306,8 +366,10 @@
     "skillToLearn": "Painting",
     "skillToTeach": "Piano",
     "mode": "online",
-    "location": "Budapest, HU",
-    "availability": "Thursdays, 3:00 pm - 5:00 pm"
+    "city": "Budapest",
+    "country": "Hungary",
+    "availability": "Thursdays, 3:00 pm - 5:00 pm",
+    "additionalInfo": "Seeking painting guidance to create evocative artwork."
   },
   {
     "id": "32",
@@ -316,8 +378,10 @@
     "skillToLearn": "Skiing",
     "skillToTeach": "Drums",
     "mode": "online",
-    "location": "Belgrade, RS",
-    "availability": "Tuesdays, 8:00 am - 10:00 am"
+    "city": "Belgrade",
+    "country": "Serbia",
+    "availability": "Tuesdays, 8:00 am - 10:00 am",
+    "additionalInfo": "Exploring skiing techniques for recreational fun."
   },
   {
     "id": "33",
@@ -326,8 +390,10 @@
     "skillToLearn": "Cooking",
     "skillToTeach": "DJing",
     "mode": "in-person",
-    "location": "Athens, GR",
-    "availability": "Mondays, 9:00 am - 11:00 am"
+    "city": "Athens",
+    "country": "Greece",
+    "availability": "Mondays, 9:00 am - 11:00 am",
+    "additionalInfo": "Wants to learn diverse cooking styles for entertaining friends."
   },
   {
     "id": "34",
@@ -336,8 +402,10 @@
     "skillToLearn": "Barbecue",
     "skillToTeach": "Music Production",
     "mode": "in-person",
-    "location": "Thessaloniki, GR",
-    "availability": "Wednesdays, 6:00 pm - 8:00 pm"
+    "city": "Thessaloniki",
+    "country": "Greece",
+    "availability": "Wednesdays, 6:00 pm - 8:00 pm",
+    "additionalInfo": "Curious about barbecue techniques for culinary excellence."
   },
   {
     "id": "35",
@@ -346,8 +414,10 @@
     "skillToLearn": "Hiking",
     "skillToTeach": "Videography",
     "mode": "online",
-    "location": "Sofia, BG",
-    "availability": "Fridays, 2:00 pm - 4:00 pm"
+    "city": "Sofia",
+    "country": "Bulgaria",
+    "availability": "Fridays, 2:00 pm - 4:00 pm",
+    "additionalInfo": "Desires to connect with nature through hiking exploration."
   },
   {
     "id": "36",
@@ -356,8 +426,10 @@
     "skillToLearn": "Sculpting",
     "skillToTeach": "Screenwriting",
     "mode": "in-person",
-    "location": "Bucharest, RO",
-    "availability": "Tuesdays, afternoons"
+    "city": "Bucharest",
+    "country": "Romania",
+    "availability": "Tuesdays, afternoons",
+    "additionalInfo": "Aims to refine sculpting for artistic development."
   },
   {
     "id": "37",
@@ -366,8 +438,10 @@
     "skillToLearn": "Web Design",
     "skillToTeach": "Podcasting",
     "mode": "online",
-    "location": "Kyiv, UA",
-    "availability": "Saturdays, after 3:00 pm"
+    "city": "Kyiv",
+    "country": "Ukraine",
+    "availability": "Saturdays, after 3:00 pm",
+    "additionalInfo": "Wants to master web design for impactful projects."
   },
   {
     "id": "38",
@@ -376,8 +450,10 @@
     "skillToLearn": "Knitting",
     "skillToTeach": "Gardening",
     "mode": "in-person",
-    "location": "Odessa, UA",
-    "availability": "Weekends, mornings"
+    "city": "Odessa",
+    "country": "Ukraine",
+    "availability": "Weekends, mornings",
+    "additionalInfo": "Exploring knitting as a calming creative hobby."
   },
   {
     "id": "39",
@@ -386,8 +462,10 @@
     "skillToLearn": "Spiritual Healing",
     "skillToTeach": "Pottery",
     "mode": "online",
-    "location": "Minsk, BY",
-    "availability": "Monday to Friday, 10:00 am - 12:00 pm"
+    "city": "Minsk",
+    "country": "Belarus",
+    "availability": "Monday to Friday, 10:00 am - 12:00 pm",
+    "additionalInfo": "Learning spiritual healing for personal and community well-being."
   },
   {
     "id": "40",
@@ -396,8 +474,10 @@
     "skillToLearn": "Herbalism",
     "skillToTeach": "Knitting",
     "mode": "in-person",
-    "location": "Vilnius, LT",
-    "availability": "Mondays and Fridays, 5:00 pm - 7:00 pm"
+    "city": "Vilnius",
+    "country": "Lithuania",
+    "availability": "Mondays and Fridays, 5:00 pm - 7:00 pm",
+    "additionalInfo": "Interested in herbalism to create natural remedies."
   },
   {
     "id": "41",
@@ -406,8 +486,10 @@
     "skillToLearn": "Volleyball",
     "skillToTeach": "Sewing",
     "mode": "online",
-    "location": "Riga, LV",
-    "availability": "Wednesdays, 7:00 pm - 9:00 pm"
+    "city": "Riga",
+    "country": "Latvia",
+    "availability": "Wednesdays, 7:00 pm - 9:00 pm",
+    "additionalInfo": "Seeking volleyball tips for improved team play."
   },
   {
     "id": "42",
@@ -416,8 +498,10 @@
     "skillToLearn": "Graphic Design",
     "skillToTeach": "Embroidery",
     "mode": "in-person",
-    "location": "Tallinn, EE",
-    "availability": "Thursdays, 12:00 pm - 3:00 pm"
+    "city": "Tallinn",
+    "country": "Estonia",
+    "availability": "Thursdays, 12:00 pm - 3:00 pm",
+    "additionalInfo": "Desires graphic design skills to enhance creative projects."
   },
   {
     "id": "43",
@@ -426,8 +510,10 @@
     "skillToLearn": "Creative Writing",
     "skillToTeach": "Calligraphy",
     "mode": "online",
-    "location": "Stockholm, SE",
-    "availability": "Sundays, 9:00 am - 12:00 pm"
+    "city": "Stockholm",
+    "country": "Sweden",
+    "availability": "Sundays, 9:00 am - 12:00 pm",
+    "additionalInfo": "Learning creative writing to bring ideas to life."
   },
   {
     "id": "44",
@@ -436,8 +522,10 @@
     "skillToLearn": "Pottery",
     "skillToTeach": "Herbalism",
     "mode": "online",
-    "location": "Gothenburg, SE",
-    "availability": "Fridays, 11:00 am - 2:00 pm"
+    "city": "Gothenburg",
+    "country": "Sweden",
+    "availability": "Fridays, 11:00 am - 2:00 pm",
+    "additionalInfo": "Aiming to refine pottery techniques for unique creations."
   },
   {
     "id": "45",
@@ -446,8 +534,10 @@
     "skillToLearn": "Sewing",
     "skillToTeach": "Massage Therapy",
     "mode": "in-person",
-    "location": "Oslo, NO",
-    "availability": "Mondays, 3:00 pm - 6:00 pm"
+    "city": "Oslo",
+    "country": "Norway",
+    "availability": "Mondays, 3:00 pm - 6:00 pm",
+    "additionalInfo": "Exploring sewing for practical and creative applications."
   },
   {
     "id": "46",
@@ -456,8 +546,10 @@
     "skillToLearn": "Origami",
     "skillToTeach": "Reiki",
     "mode": "in-person",
-    "location": "Bergen, NO",
-    "availability": "Tuesdays and Thursdays, 4:00 pm - 7:00 pm"
+    "city": "Bergen",
+    "country": "Norway",
+    "availability": "Tuesdays and Thursdays, 4:00 pm - 7:00 pm",
+    "additionalInfo": "Wants to learn origami for mindfulness and creativity."
   },
   {
     "id": "47",
@@ -466,8 +558,10 @@
     "skillToLearn": "Drumming",
     "skillToTeach": "Crystal Healing",
     "mode": "online",
-    "location": "Helsinki, FI",
-    "availability": "Mondays, mornings"
+    "city": "Helsinki",
+    "country": "Finland",
+    "availability": "Mondays, mornings",
+    "additionalInfo": "Curious about drumming to enhance rhythm and musicality."
   },
   {
     "id": "48",
@@ -476,8 +570,10 @@
     "skillToLearn": "Running",
     "skillToTeach": "Tarot Reading",
     "mode": "in-person",
-    "location": "Tampere, FI",
-    "availability": "Saturdays, 8:00 am - 11:00 am"
+    "city": "Tampere",
+    "country": "Finland",
+    "availability": "Saturdays, 8:00 am - 11:00 am",
+    "additionalInfo": "Seeking running tips to build endurance and stamina."
   },
   {
     "id": "49",
@@ -486,8 +582,10 @@
     "skillToLearn": "Boxing",
     "skillToTeach": "Astrology",
     "mode": "in-person",
-    "location": "Copenhagen, DK",
-    "availability": "Sundays, afternoons"
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "availability": "Sundays, afternoons",
+    "additionalInfo": "Interested in boxing techniques for fitness and defense."
   },
   {
     "id": "50",
@@ -496,8 +594,10 @@
     "skillToLearn": "Computer Science",
     "skillToTeach": "Skateboarding",
     "mode": "online",
-    "location": "Aarhus, DK",
-    "availability": "Mondays and Wednesdays, 10:00 am - 12:00 pm"
+    "city": "Aarhus",
+    "country": "Denmark",
+    "availability": "Mondays and Wednesdays, 10:00 am - 12:00 pm",
+    "additionalInfo": "Eager to enhance computer science skills for technical projects."
   },
   {
     "id": "51",
@@ -506,8 +606,10 @@
     "skillToLearn": "Nature Photography",
     "skillToTeach": "Cycling",
     "mode": "in-person",
-    "location": "Malmö, SE",
-    "availability": "Thursdays, 9:00 am - 11:00 am"
+    "city": "Malmö",
+    "country": "Sweden",
+    "availability": "Thursdays, 9:00 am - 11:00 am",
+    "additionalInfo": "Aims to refine nature photography for impactful storytelling."
   },
   {
     "id": "52",
@@ -516,8 +618,10 @@
     "skillToLearn": "Knitting",
     "skillToTeach": "Running",
     "mode": "online",
-    "location": "Reykjavik, IS",
-    "availability": "Fridays, evenings"
+    "city": "Reykjavik",
+    "country": "Iceland",
+    "availability": "Fridays, evenings",
+    "additionalInfo": "Exploring knitting for crafting unique handmade pieces."
   },
   {
     "id": "53",
@@ -526,8 +630,10 @@
     "skillToLearn": "Fashion Design",
     "skillToTeach": "Parkour",
     "mode": "online",
-    "location": "Edmonton, CA",
-    "availability": "Weekends, all day"
+    "city": "Edmonton",
+    "country": "Canada",
+    "availability": "Weekends, all day",
+    "additionalInfo": "Wants to combine fashion design with sustainable practices."
   },
   {
     "id": "54",
@@ -536,8 +642,10 @@
     "skillToLearn": "Surf Culture",
     "skillToTeach": "Rock Climbing",
     "mode": "in-person",
-    "location": "Toronto, CA",
-    "availability": "Monday to Friday, 7:00 am - 9:00 am"
+    "city": "Toronto",
+    "country": "Canada",
+    "availability": "Monday to Friday, 7:00 am - 9:00 am",
+    "additionalInfo": "Curious about surf culture for building community connections."
   },
   {
     "id": "55",
@@ -546,8 +654,10 @@
     "skillToLearn": "Tai Chi",
     "skillToTeach": "Snowboarding",
     "mode": "in-person",
-    "location": "Vancouver, CA",
-    "availability": "Sundays, 3:00 pm - 6:00 pm"
+    "city": "Vancouver",
+    "country": "Canada",
+    "availability": "Sundays, 3:00 pm - 6:00 pm",
+    "additionalInfo": "Desires Tai Chi techniques to improve relaxation and balance."
   },
   {
     "id": "56",
@@ -556,8 +666,10 @@
     "skillToLearn": "Self-Defense",
     "skillToTeach": "Skiing",
     "mode": "online",
-    "location": "Montreal, CA",
-    "availability": "Tuesdays, 6:00 pm - 8:00 pm"
+    "city": "Montreal",
+    "country": "Canada",
+    "availability": "Tuesdays, 6:00 pm - 8:00 pm",
+    "additionalInfo": "Aiming to enhance self-defense skills for confidence."
   },
   {
     "id": "57",
@@ -566,8 +678,10 @@
     "skillToLearn": "Archery",
     "skillToTeach": "Kayaking",
     "mode": "online",
-    "location": "Ottawa, CA",
-    "availability": "Mondays and Thursdays, 1:00 pm - 4:00 pm"
+    "city": "Ottawa",
+    "country": "Canada",
+    "availability": "Mondays and Thursdays, 1:00 pm - 4:00 pm",
+    "additionalInfo": "Interested in archery to improve focus and precision."
   },
   {
     "id": "58",
@@ -576,8 +690,10 @@
     "skillToLearn": "Crossfit",
     "skillToTeach": "Scuba Diving",
     "mode": "in-person",
-    "location": "New York, US",
-    "availability": "Wednesdays, 8:00 am - 10:00 am"
+    "city": "New York",
+    "country": "United States",
+    "availability": "Wednesdays, 8:00 am - 10:00 am",
+    "additionalInfo": "Wants to combine CrossFit with scuba diving for fitness."
   },
   {
     "id": "59",
@@ -586,8 +702,10 @@
     "skillToLearn": "Spiritual Guidance",
     "skillToTeach": "Sailing",
     "mode": "in-person",
-    "location": "Los Angeles, US",
-    "availability": "Fridays, 10:00 am - 12:00 pm"
+    "city": "Los Angeles",
+    "country": "United States",
+    "availability": "Fridays, 10:00 am - 12:00 pm",
+    "additionalInfo": "Exploring spiritual guidance for personal enlightenment."
   },
   {
     "id": "60",
@@ -596,8 +714,10 @@
     "skillToLearn": "Bird Watching",
     "skillToTeach": "Horseback Riding",
     "mode": "online",
-    "location": "San Francisco, US",
-    "availability": "Saturdays, 1:00 pm - 3:00 pm"
+    "city": "San Francisco",
+    "country": "United States",
+    "availability": "Saturdays, 1:00 pm - 3:00 pm",
+    "additionalInfo": "Curious about bird watching to deepen nature appreciation."
   },
   {
     "id": "61",
@@ -606,8 +726,10 @@
     "skillToLearn": "Surf Culture",
     "skillToTeach": "Dog Training",
     "mode": "online",
-    "location": "Austin, US",
-    "availability": "Mondays and Fridays, after 7:00 pm"
+    "city": "Austin",
+    "country": "United States",
+    "availability": "Mondays and Fridays, after 7:00 pm",
+    "additionalInfo": "Learning surf culture for community and environmental engagement."
   },
   {
     "id": "62",
@@ -616,8 +738,10 @@
     "skillToLearn": "Piano Playing",
     "skillToTeach": "Fishing",
     "mode": "in-person",
-    "location": "Seattle, US",
-    "availability": "Wednesdays, 4:00 pm - 6:00 pm"
+    "city": "Seattle",
+    "country": "United States",
+    "availability": "Wednesdays, 4:00 pm - 6:00 pm",
+    "additionalInfo": "Eager to master piano playing for personal enrichment."
   },
   {
     "id": "63",
@@ -626,8 +750,10 @@
     "skillToLearn": "Bodybuilding",
     "skillToTeach": "Survival Skills",
     "mode": "in-person",
-    "location": "Denver, US",
-    "availability": "Tuesdays, 9:00 am - 11:00 am"
+    "city": "Denver",
+    "country": "United States",
+    "availability": "Tuesdays, 9:00 am - 11:00 am",
+    "additionalInfo": "Desires bodybuilding tips for enhanced strength training."
   },
   {
     "id": "64",
@@ -636,8 +762,10 @@
     "skillToLearn": "Skate Culture",
     "skillToTeach": "Sign Language",
     "mode": "online",
-    "location": "Boston, US",
-    "availability": "Weekends, 12:00 pm - 4:00 pm"
+    "city": "Boston",
+    "country": "United States",
+    "availability": "Weekends, 12:00 pm - 4:00 pm",
+    "additionalInfo": "Exploring skate culture for deeper community connections."
   },
   {
     "id": "65",
@@ -646,8 +774,10 @@
     "skillToLearn": "Feng Shui",
     "skillToTeach": "Spanish",
     "mode": "online",
-    "location": "Miami, US",
-    "availability": "Mondays, 7:00 pm - 9:00 pm"
+    "city": "Miami",
+    "country": "United States",
+    "availability": "Mondays, 7:00 pm - 9:00 pm",
+    "additionalInfo": "Wants to incorporate Feng Shui principles into daily life."
   },
   {
     "id": "66",
@@ -656,8 +786,10 @@
     "skillToLearn": "Tattoo Art",
     "skillToTeach": "French",
     "mode": "in-person",
-    "location": "Chicago, US",
-    "availability": "Thursdays, 11:00 am - 2"
+    "city": "Chicago",
+    "country": "United States",
+    "availability": "Thursdays, 11:00 am - 2",
+    "additionalInfo": "Learning tattoo art to enhance artistic skills."
   },
   {
     "id": "67",
@@ -666,8 +798,10 @@
     "skillToLearn": "Lacrosse",
     "skillToTeach": "Italian",
     "mode": "in-person",
-    "location": "Dallas, US",
-    "availability": "Wednesdays, 7:00 pm - 9:00 pm"
+    "city": "Dallas",
+    "country": "United States",
+    "availability": "Wednesdays, 7:00 pm - 9:00 pm",
+    "additionalInfo": "Interested in lacrosse techniques for recreational play."
   },
   {
     "id": "68",
@@ -676,8 +810,10 @@
     "skillToLearn": "Public Speaking",
     "skillToTeach": "German",
     "mode": "online",
-    "location": "Atlanta, US",
-    "availability": "Thursdays, 12:00 pm - 3:00 pm"
+    "city": "Atlanta",
+    "country": "United States",
+    "availability": "Thursdays, 12:00 pm - 3:00 pm",
+    "additionalInfo": "Aiming to improve public speaking for professional growth."
   },
   {
     "id": "69",
@@ -686,8 +822,10 @@
     "skillToLearn": "Mindfulness",
     "skillToTeach": "Japanese",
     "mode": "in-person",
-    "location": "Phoenix, US",
-    "availability": "Sundays, 9:00 am - 12:00 pm"
+    "city": "Phoenix",
+    "country": "United States",
+    "availability": "Sundays, 9:00 am - 12:00 pm",
+    "additionalInfo": "Seeking mindfulness guidance to achieve inner peace."
   },
   {
     "id": "70",
@@ -696,8 +834,10 @@
     "skillToLearn": "Street Art",
     "skillToTeach": "Chinese",
     "mode": "in-person",
-    "location": "San Diego, US",
-    "availability": "Fridays, 11:00 am - 2:00 pm"
+    "city": "San Diego",
+    "country": "United States",
+    "availability": "Fridays, 11:00 am - 2:00 pm",
+    "additionalInfo": "Desires street art techniques for urban creativity."
   },
   {
     "id": "71",
@@ -706,8 +846,10 @@
     "skillToLearn": "Camping",
     "skillToTeach": "Arabic",
     "mode": "online",
-    "location": "Las Vegas, US",
-    "availability": "Mondays, 3:00 pm - 6:00 pm"
+    "city": "Las Vegas",
+    "country": "United States",
+    "availability": "Mondays, 3:00 pm - 6:00 pm",
+    "additionalInfo": "Exploring camping skills for adventurous getaways."
   },
   {
     "id": "72",
@@ -716,8 +858,10 @@
     "skillToLearn": "Canoeing",
     "skillToTeach": "Russian",
     "mode": "in-person",
-    "location": "Houston, US",
-    "availability": "Tuesdays and Thursdays, 4:00 pm - 7:00 pm"
+    "city": "Houston",
+    "country": "United States",
+    "availability": "Tuesdays and Thursdays, 4:00 pm - 7:00 pm",
+    "additionalInfo": "Curious about canoeing for recreational enjoyment."
   },
   {
     "id": "73",
@@ -726,8 +870,10 @@
     "skillToLearn": "Snowboarding",
     "skillToTeach": "Portuguese",
     "mode": "in-person",
-    "location": "Orlando, US",
-    "availability": "Mondays, mornings"
+    "city": "Orlando",
+    "country": "United States",
+    "availability": "Mondays, mornings",
+    "additionalInfo": "Learning snowboarding for winter sports proficiency."
   },
   {
     "id": "74",
@@ -736,8 +882,10 @@
     "skillToLearn": "Woodworking",
     "skillToTeach": "Hiking",
     "mode": "online",
-    "location": "Honolulu, US",
-    "availability": "Saturdays, 8:00 am - 11:00 am"
+    "city": "Honolulu",
+    "country": "United States",
+    "availability": "Saturdays, 8:00 am - 11:00 am",
+    "additionalInfo": "Wants woodworking techniques for creative personal projects."
   },
   {
     "id": "75",
@@ -746,8 +894,10 @@
     "skillToLearn": "Photography",
     "skillToTeach": "Birdwatching",
     "mode": "online",
-    "location": "Mexico City, MX",
-    "availability": "Sundays, afternoons"
+    "city": "Mexico City",
+    "country": "Mexico",
+    "availability": "Sundays, afternoons",
+    "additionalInfo": "Interested in photography to capture unique moments."
   },
   {
     "id": "76",
@@ -756,8 +906,10 @@
     "skillToLearn": "Rock Climbing",
     "skillToTeach": "Foraging",
     "mode": "in-person",
-    "location": "Santa Teresa, CR",
-    "availability": "Mondays and Wednesdays, 10:00 am - 12:00 pm"
+    "city": "Santa Teresa",
+    "country": "Costa Rica",
+    "availability": "Mondays and Wednesdays, 10:00 am - 12:00 pm",
+    "additionalInfo": "Exploring rock climbing for physical and mental challenges."
   },
   {
     "id": "77",
@@ -766,8 +918,10 @@
     "skillToLearn": "Parkour",
     "skillToTeach": "Camping",
     "mode": "in-person",
-    "location": "Guadalajara, MX",
-    "availability": "Thursdays, 9:00 am - 11:00 am"
+    "city": "Guadalajara",
+    "country": "Mexico",
+    "availability": "Thursdays, 9:00 am - 11:00 am",
+    "additionalInfo": "Aims to master parkour for movement efficiency."
   },
   {
     "id": "78",
@@ -776,8 +930,10 @@
     "skillToLearn": "Horseback Riding",
     "skillToTeach": "Astrophotography",
     "mode": "online",
-    "location": "Monterrey, MX",
-    "availability": "Fridays, evenings"
+    "city": "Monterrey",
+    "country": "Mexico",
+    "availability": "Fridays, evenings",
+    "additionalInfo": "Eager to learn horseback riding for outdoor exploration."
   },
   {
     "id": "79",
@@ -786,8 +942,10 @@
     "skillToLearn": "Golf",
     "skillToTeach": "3D Modeling",
     "mode": "in-person",
-    "location": "Medellin, CO",
-    "availability": "Weekends, all day"
+    "city": "Medellin",
+    "country": "Colombia",
+    "availability": "Weekends, all day",
+    "additionalInfo": "Desires golf tips to improve technique and precision."
   },
   {
     "id": "80",
@@ -796,8 +954,10 @@
     "skillToLearn": "Photography",
     "skillToTeach": "Animation",
     "mode": "online",
-    "location": "Bogotá, CO",
-    "availability": "Monday to Friday, 7:00 am - 9:00 am"
+    "city": "Bogotá",
+    "country": "Colombia",
+    "availability": "Monday to Friday, 7:00 am - 9:00 am",
+    "additionalInfo": "Seeking photography expertise to expand creative vision."
   },
   {
     "id": "81",
@@ -806,8 +966,10 @@
     "skillToLearn": "French Cooking",
     "skillToTeach": "Acting",
     "mode": "online",
-    "location": "Quito, EC",
-    "availability": "Sundays, 3:00 pm - 6:00 pm"
+    "city": "Quito",
+    "country": "Ecuador",
+    "availability": "Sundays, 3:00 pm - 6:00 pm",
+    "additionalInfo": "Curious about French cooking for culinary mastery."
   },
   {
     "id": "82",
@@ -816,8 +978,10 @@
     "skillToLearn": "Candle Making",
     "skillToTeach": "Directing",
     "mode": "in-person",
-    "location": "Lima, PE",
-    "availability": "Tuesdays, 6:00 pm - 8:00 pm"
+    "city": "Lima",
+    "country": "Peru",
+    "availability": "Tuesdays, 6:00 pm - 8:00 pm",
+    "additionalInfo": "Aiming to explore candle making as a creative hobby."
   },
   {
     "id": "83",
@@ -826,8 +990,10 @@
     "skillToLearn": "Yoga Nidra",
     "skillToTeach": "Script Analysis",
     "mode": "online",
-    "location": "Santiago, CL",
-    "availability": "Mondays and Thursdays, 1:00 pm - 4:00 pm"
+    "city": "Santiago",
+    "country": "Chile",
+    "availability": "Mondays and Thursdays, 1:00 pm - 4:00 pm",
+    "additionalInfo": "Interested in yoga nidra for deep relaxation."
   },
   {
     "id": "84",
@@ -836,8 +1002,10 @@
     "skillToLearn": "Baking",
     "skillToTeach": "Entrepreneurship",
     "mode": "in-person",
-    "location": "Buenos Aires, AR",
-    "availability": "Wednesdays, 8:00 am - 10:00 am"
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "availability": "Wednesdays, 8:00 am - 10:00 am",
+    "additionalInfo": "Exploring baking techniques for professional culinary skills."
   },
   {
     "id": "85",
@@ -846,8 +1014,10 @@
     "skillToLearn": "Personal Branding",
     "skillToTeach": "Finance Basics",
     "mode": "online",
-    "location": "São Paulo, BR",
-    "availability": "Fridays, 10:00 am - 12:00 pm"
+    "city": "São Paulo",
+    "country": "Brazil",
+    "availability": "Fridays, 10:00 am - 12:00 pm",
+    "additionalInfo": "Eager to master personal branding for career success."
   },
   {
     "id": "86",
@@ -856,8 +1026,10 @@
     "skillToLearn": "Cycling",
     "skillToTeach": "Investing",
     "mode": "online",
-    "location": "Rio de Janeiro, BR",
-    "availability": "Saturdays, 1:00 pm - 3:00 pm"
+    "city": "Rio de Janeiro",
+    "country": "Brazil",
+    "availability": "Saturdays, 1:00 pm - 3:00 pm",
+    "additionalInfo": "Wants to combine cycling with investing techniques."
   },
   {
     "id": "87",
@@ -866,8 +1038,10 @@
     "skillToLearn": "Scrapbooking",
     "skillToTeach": "Real Estate",
     "mode": "in-person",
-    "location": "Brasilia, BR",
-    "availability": "Mondays and Fridays, after 7:00 pm"
+    "city": "Brasilia",
+    "country": "Brazil",
+    "availability": "Mondays and Fridays, after 7:00 pm",
+    "additionalInfo": "Learning scrapbooking for creative personal projects."
   },
   {
     "id": "88",
@@ -876,8 +1050,10 @@
     "skillToLearn": "Astronomy",
     "skillToTeach": "Project Management",
     "mode": "online",
-    "location": "Cape Town, ZA",
-    "availability": "Wednesdays, 7:00 pm - 9:00 pm"
+    "city": "Cape Town",
+    "country": "South Africa",
+    "availability": "Wednesdays, 7:00 pm - 9:00 pm",
+    "additionalInfo": "Aiming to deepen astronomy knowledge for educational purposes."
   },
   {
     "id": "89",
@@ -886,8 +1062,10 @@
     "skillToLearn": "Fishing",
     "skillToTeach": "Public Relations",
     "mode": "in-person",
-    "location": "Johannesburg, ZA",
-    "availability": "Thursdays, 12:00 pm - 3:00 pm"
+    "city": "Johannesburg",
+    "country": "South Africa",
+    "availability": "Thursdays, 12:00 pm - 3:00 pm",
+    "additionalInfo": "Curious about fishing techniques for sustainable practices."
   },
   {
     "id": "90",
@@ -896,8 +1074,10 @@
     "skillToLearn": "Cooking Classes",
     "skillToTeach": "Event Planning",
     "mode": "in-person",
-    "location": "Nairobi, KE",
-    "availability": "Sundays, 9:00 am - 12:00 pm"
+    "city": "Nairobi",
+    "country": "Kenya",
+    "availability": "Sundays, 9:00 am - 12:00 pm",
+    "additionalInfo": "Interested in cooking classes to organize social events."
   },
   {
     "id": "91",
@@ -906,8 +1086,10 @@
     "skillToLearn": "Barista Skills",
     "skillToTeach": "Culinary Arts",
     "mode": "online",
-    "location": "Accra, GH",
-    "availability": "Fridays, 11:00 am - 2:00 pm"
+    "city": "Accra",
+    "country": "Ghana",
+    "availability": "Fridays, 11:00 am - 2:00 pm",
+    "additionalInfo": "Eager to learn barista skills for crafting unique drinks."
   },
   {
     "id": "92",
@@ -916,8 +1098,10 @@
     "skillToLearn": "Mindfulness Meditation",
     "skillToTeach": "Sommelier Training",
     "mode": "in-person",
-    "location": "Lagos, NG",
-    "availability": "Mondays, 3:00 pm - 6:00 pm"
+    "city": "Lagos",
+    "country": "Nigeria",
+    "availability": "Mondays, 3:00 pm - 6:00 pm",
+    "additionalInfo": "Wants mindfulness techniques to enhance daily living."
   },
   {
     "id": "93",
@@ -926,8 +1110,10 @@
     "skillToLearn": "Tennis Coaching",
     "skillToTeach": "Baking",
     "mode": "online",
-    "location": "Cairo, EG",
-    "availability": "Tuesdays and Thursdays, 4:00 pm - 7:00 pm"
+    "city": "Cairo",
+    "country": "Egypt",
+    "availability": "Tuesdays and Thursdays, 4:00 pm - 7:00 pm",
+    "additionalInfo": "Exploring tennis coaching for improved gameplay techniques."
   },
   {
     "id": "94",
@@ -936,8 +1122,10 @@
     "skillToLearn": "CrossFit Training",
     "skillToTeach": "Martial Arts",
     "mode": "in-person",
-    "location": "Istanbul, TR",
-    "availability": "Mondays, mornings"
+    "city": "Istanbul",
+    "country": "Turkey",
+    "availability": "Mondays, mornings",
+    "additionalInfo": "Learning CrossFit for strength and endurance improvement."
   },
   {
     "id": "95",
@@ -946,8 +1134,10 @@
     "skillToLearn": "Poetry Writing",
     "skillToTeach": "Taekwondo",
     "mode": "online",
-    "location": "Dubai, AE",
-    "availability": "Saturdays, 8:00 am - 11:00 am"
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "availability": "Saturdays, 8:00 am - 11:00 am",
+    "additionalInfo": "Curious about poetry writing for creative expression."
   },
   {
     "id": "96",
@@ -956,8 +1146,10 @@
     "skillToLearn": "Beekeeping",
     "skillToTeach": "Karate",
     "mode": "online",
-    "location": "Abu Dhabi, AE",
-    "availability": "Sundays, afternoons"
+    "city": "Abu Dhabi",
+    "country": "United Arab Emirates",
+    "availability": "Sundays, afternoons",
+    "additionalInfo": "Eager to explore beekeeping for environmental sustainability."
   },
   {
     "id": "97",
@@ -966,8 +1158,10 @@
     "skillToLearn": "Jewelry Making",
     "skillToTeach": "Judo",
     "mode": "in-person",
-    "location": "New Delhi, IN",
-    "availability": "Mondays and Wednesdays, 10:00 am - 12:00 pm"
+    "city": "New Delhi",
+    "country": "India",
+    "availability": "Mondays and Wednesdays, 10:00 am - 12:00 pm",
+    "additionalInfo": "Wants jewelry-making techniques to create personalized designs."
   },
   {
     "id": "98",
@@ -976,8 +1170,10 @@
     "skillToLearn": "Chinese Calligraphy",
     "skillToTeach": "Fencing",
     "mode": "in-person",
-    "location": "Mumbai, IN",
-    "availability": "Thursdays, 9:00 am - 11:00 am"
+    "city": "Mumbai",
+    "country": "India",
+    "availability": "Thursdays, 9:00 am - 11:00 am",
+    "additionalInfo": "Seeking Chinese calligraphy to connect with cultural heritage."
   },
   {
     "id": "99",
@@ -986,8 +1182,10 @@
     "skillToLearn": "Yoga Therapy",
     "skillToTeach": "Archery",
     "mode": "online",
-    "location": "Bangalore, IN",
-    "availability": "Fridays, evenings"
+    "city": "Bangalore",
+    "country": "India",
+    "availability": "Fridays, evenings",
+    "additionalInfo": "Interested in yoga therapy for holistic well-being."
   },
   {
     "id": "100",
@@ -996,7 +1194,9 @@
     "skillToLearn": "Guitar Playing",
     "skillToTeach": "Wine Tasting",
     "mode": "in-person",
-    "location": "Beijing, CN",
-    "availability": "Weekends, all day"
+    "city": "Beijing",
+    "country": "China",
+    "availability": "Weekends, all day",
+    "additionalInfo": "Exploring guitar playing to compose personalized music."
   }
 ]

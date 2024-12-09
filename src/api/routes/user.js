@@ -6,7 +6,8 @@ const {
   deleteUser,
   updateUser,
   removeFavoriteFromUser,
-  addLikesMessages
+  addSkillRequestsId,
+  addElementId
 } = require('../controllers/user')
 const { upload } = require('../../middlewares/file')
 const { isAuth, isAdmin, isUserOrAdmin } = require('../../middlewares/auth')
@@ -26,8 +27,8 @@ usersRouter.put(
   upload('project13/profilePicture').fields([{ name: 'profilePicture' }]),
   updateUser
 )
-usersRouter.put('/addLikeMessage/:id', addLikesMessages)
-usersRouter.put('/removeLike/:id', removeFavoriteFromUser)
+usersRouter.put('/addElementId/:id', addElementId)
+usersRouter.put('/disLike/:id', removeFavoriteFromUser)
 usersRouter.delete('/:id', isUserOrAdmin, deleteUser)
 
 // usersRouter.post(

@@ -11,11 +11,13 @@ const messageSchema = new mongoose.Schema(
       required: true
     },
     messageContent: { type: String, required: true },
-    contactInfoIncluded: {
+    contactInfo: {
       whatsapp: { type: String },
       instagram: { type: String },
       email: { type: String }
     },
+    reply: { type: mongoose.Types.ObjectId, ref: 'messages' },
+    originalMessage: { type: mongoose.Types.ObjectId, ref: 'messages' },
     sentAt: { type: Date, default: Date.now }
   },
   {

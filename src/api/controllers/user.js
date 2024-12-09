@@ -187,24 +187,21 @@ const addElementId = async (req, res) => {
       { $addToSet: updateFields },
       { new: true }
     )
-    const updatedUserPopulated = await updatedUser.populate('messages')
+    const updatedUserPopulated = await updatedUser.populate({
+      path: 'messages',
+      populate: [
+        { path: 'sender', select: 'name profilePicture' },
+        { path: 'skillRequest', select: 'skillToTeach' },
+        { path: 'reply', select: 'messageContent sender' },
+        { path: 'originalMessage', select: 'messageContent sentAt' }
+      ]
+    })
 
     if (!updatedUser) {
       return res.status(404).json({ error: 'User not found' })
     }
 
-    return res
-      .status(200)
-      .json(updatedUserPopulated)
-      .populate({
-        path: 'messages',
-        populate: [
-          { path: 'sender', select: 'name profilePicture' },
-          { path: 'skillRequest', select: 'skillToTeach' },
-          { path: 'reply', select: 'messageContent sender' },
-          { path: 'originalMessage', select: 'messageContent sentAt' }
-        ]
-      })
+    return res.status(200).json(updatedUserPopulated)
   } catch (error) {
     return res
       .status(400)

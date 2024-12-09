@@ -6,6 +6,7 @@ const isAuth = async (req, res, next) => {
   try {
     const token = req.headers.authorization
 
+    console.log('este es el token que llego', token)
     if (!token) {
       // return res.status(400).json('you are not authorized') respuesta anterior
       return res.status(400).json({ error: `you are not authorized` })

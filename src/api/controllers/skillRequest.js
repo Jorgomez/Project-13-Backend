@@ -104,6 +104,8 @@ const createSkillRequest = async (req, res, next) => {
       user: req.user._id
     })
 
+    console.log(req.body)
+
     if (req.files && req.files.picture && req.files.picture[0]) {
       newSkillRequest.picture = req.files.picture[0].path
     }

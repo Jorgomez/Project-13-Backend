@@ -18,8 +18,6 @@ This project is the backend API for a skill exchange platform, where users can c
 - Cloudinary: For handling image uploads (profile pictures, skill request pictures).
 - Bcrypt.js: To hash passwords securely before saving them in the database.
 
-By default, the backend will run on http://localhost:3000.
-
 ## API Endpoints
 
 # Users
@@ -62,10 +60,8 @@ npm run injectRelatedFields
 
 ## API URL
 
-...
+https://project-13-backend.vercel.app/
 
 ## Website URL
 
-....
-
-# Project-13-Backend
+https://wegrowtogether.netlify.app/

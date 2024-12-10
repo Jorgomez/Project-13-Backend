@@ -1,14 +1,15 @@
 id,name,email,password,skillToLearn,profilePicture
-1,Gül Baykam,user1@example.com,prueba,Yoga,https://randomuser.me/api/portraits/women/31.jpg
-2,Gavin Fuller,user2@example.com,prueba,Meditation,https://randomuser.me/api/portraits/men/4.jpg
-3,Brigitta Gaul,user3@example.com,prueba,Surfing,https://randomuser.me/api/portraits/women/5.jpg
-4,Ratimir Vilchinskiy,user4@example.com,prueba,Skateboarding,https://randomuser.me/api/portraits/men/20.jpg
-5,Nimit Babu,user5@example.com,prueba,Pilates,https://randomuser.me/api/portraits/men/87.jpg
-6,Julio Alonso,user6@example.com,prueba,Spirituality,https://randomuser.me/api/portraits/men/40.jpg
-7,Umut Öztürk,user7@example.com,prueba,Rock Climbing,https://randomuser.me/api/portraits/men/36.jpg
-8,Harshil Bangera,user8@example.com,prueba,Martial Arts,https://randomuser.me/api/portraits/men/5.jpg
-9,Katalina Novak,user9@example.com,prueba,Photography,https://randomuser.me/api/portraits/women/23.jpg
-10,Thies Mark,user10@example.com,prueba,Cooking,https://randomuser.me/api/portraits/men/7.jpg
+1,Nicola Cruz,user1@example.com,prueba,Skate/Breathing,https://res.cloudinary.com/digcf0lad/image/upload/v1730665703/Project%2012/users/venrick-azcueta-17qa33WJ6zI-unsplash_xz7zcj.webp
+2,Ana Morales,user2@example.com,prueba,Photography,https://res.cloudinary.com/digcf0lad/image/upload/v1730665698/Project%2012/users/julian-wan-2EdIX-O2lkI-unsplash_s4qwwt.webp
+3,John Smith,user3@example.com,prueba,Guitar,https://res.cloudinary.com/digcf0lad/image/upload/v1730665694/Project%2012/users/skate__xs9gkw.jpg
+4,Mia Zhang,user4@example.com,prueba,Spanish,https://res.cloudinary.com/digcf0lad/image/upload/v1730665698/Project%2012/users/2b25b991-247f-45a3-9b2f-6bbdea2be816_rzmpoq.jpg
+5,Carlos Ruiz,user5@example.com,prueba,Coding/Graphic Design,https://res.cloudinary.com/digcf0lad/image/upload/v1730665694/Project%2012/users/alex-suprun-1JGHAAdbL_Y-unsplash_dhsl5m.webp
+6,Lucas Nascimento,user6@example.com,prueba,Public Speaking,https://res.cloudinary.com/digcf0lad/image/upload/v1730665700/Project%2012/users/STARSEEDS_sustainable_sportswear_brand_kcu4du.jpg
+7,Sophia Nguyen,user7@example.com,prueba,Yoga,https://res.cloudinary.com/digcf0lad/image/upload/v1730665698/Project%2012/users/The_physical_postures_or_asanas_in_yoga_are_often_designed_to_be_visually_pleasing_and_symmetrical_ot48qx.jpg
+8,Ethan Brown,user8@example.com,prueba,Fitness,https://res.cloudinary.com/digcf0lad/image/upload/v1730665695/Project%2012/users/Physical_fitness_vbe6tl.jpg
+9,Alice Tan,user9@example.com,prueba,Pilates,https://res.cloudinary.com/digcf0lad/image/upload/v1730665700/Project%2012/users/Health_and_Wellness_hnqkgj.jpg
+10,Emma Green,user10@example.com,prueba,Cooking,https://res.cloudinary.com/digcf0lad/image/upload/v1730666263/Project%2012/users/boxed-water-is-better-psn1W9mFWps-unsplash_m2wcw7.webp
+11,Gavin Fuller,user11@example.com,prueba,Meditation,https://randomuser.me/api/portraits/men/4.jpg
 11,Calvin Wallace,user11@example.com,prueba,Ballet,https://randomuser.me/api/portraits/men/83.jpg
 12,رونیکا سالاری,user12@example.com,prueba,Cycling,https://randomuser.me/api/portraits/women/86.jpg
 13,Marcus Kristensen,user13@example.com,prueba,Gardening,https://randomuser.me/api/portraits/men/28.jpg

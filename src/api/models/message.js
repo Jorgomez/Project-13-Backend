@@ -4,7 +4,12 @@ const messageSchema = new mongoose.Schema(
   {
     sender: { type: mongoose.Types.ObjectId, ref: 'users', required: true },
     recipient: { type: mongoose.Types.ObjectId, ref: 'users', required: true },
-
+    // sender: { type: String, required: true },
+    // recipient: { type: String, required: true },
+    // skillRequest: {
+    //   type: String,
+    //   required: true
+    // },
     skillRequest: {
       type: mongoose.Types.ObjectId,
       ref: 'skillRequests',

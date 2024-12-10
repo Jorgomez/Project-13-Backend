@@ -46,10 +46,10 @@ const saveToJsonFile = (ARRAY, file) => {
   console.log(`${file}.json written successfully`)
 }
 
-// getDataFromCsv(USERS, 'users')
+getDataFromCsv(USERS, 'users')
 getDataFromCsv(SKILLREQUEST, 'skillRequest')
-// getDataFromCsv(MESSAGES, 'messages')
+getDataFromCsv(MESSAGES, 'messages')
 
-// saveToJsonFile(USERS, 'users')
+saveToJsonFile(USERS, 'users')
 saveToJsonFile(SKILLREQUEST, 'skillRequest')
-// saveToJsonFile(MESSAGES, 'messages')
+saveToJsonFile(MESSAGES, 'messages')

@@ -7,6 +7,10 @@ const skillRequestShema = new mongoose.Schema(
       ref: 'users',
       required: true
     },
+    // user: {
+    //   type: String,
+    //   required: true
+    // },
     picture: { type: String },
     skillToLearn: { type: String, required: true },
     skillToTeach: { type: String },

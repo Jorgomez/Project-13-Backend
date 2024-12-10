@@ -60,6 +60,9 @@ const register = async (req, res) => {
 
     if (req.files?.profilePicture?.[0]) {
       newUser.profilePicture = req.files.profilePicture[0].path
+    } else {
+      newUser.profilePicture =
+        'https://res.cloudinary.com/digcf0lad/image/upload/v1733838681/user_1_qhyiql.png'
     }
 
     const userSaved = await newUser.save()

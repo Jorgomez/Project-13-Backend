@@ -10,7 +10,14 @@ const cloudinary = require('cloudinary').v2
 const app = express()
 
 app.use(express.json())
-connectDB()
+
+// Añadir una ruta para el endpoint raíz antes de intentar conectar a la BD
+app.get('/', (req, res) => {
+  res.status(200).json({ message: 'API funcionando correctamente' })
+})
+
+// Intentar conectar a la BD pero no bloquear la aplicación si falla
+connectDB().catch((err) => console.error('Error de conexión a la BD:', err))
 
 cloudinary.config({
   cloud_name: process.env.CLOUD_NAME,
